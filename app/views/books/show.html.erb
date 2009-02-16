@@ -1,0 +1,43 @@
+ <%= render :partial => "header_left_with_contact" %>      
+
+  <!--div id="right">
+<div class="boxed"> 
+
+<h1>&nbsp;</h1--> 
+<div id="centerwide">
+<div class="boxed">
+<h1 class="heading">Description</h1>   
+
+
+
+
+<p class = "flash"><%= flash[:notice] %></p>
+ <!--h2> <%#=h @book.heading %> </h2-->
+<p class="description">
+
+<div class = "right"> <p></p>
+<p style="text-align: center;">
+<%= number_to_currency(@book.price, :precision => 0) %> </p>  
+
+</div> 
+<div class = "right-spacer">
+
+
+ </div>
+<% unless @picture.nil? %>       <div class = "left-pic">
+ 
+<%= image_tag(@picture.public_filename) %>
+ <% end %></div>
+
+  <%= simple_format(@book.description) %>
+  
+</p> 
+
+<% if @is_authenticated %> 
+<span class="admincontrols">
+<%= link_to 'Edit', edit_book_path(@book) %> | 
+<%= link_to 'Delete', @book, :confirm => 'Are you sure?', :method => :delete %> |       <% end %>     
+<%= link_to 'Back to short-title list', books_path %></span>
+   </div></div>
+   
+

@@ -1,0 +1,17 @@
+<%= render :partial => "books/header_left" %> 
+
+<%=  render :partial => "books/right_col" %>  
+
+<div id="center">
+<div class="boxed">  
+<h1>Edit list</h1>
+<% form_tag :action => 'update', :id => @list, :multipart => true do %>                       
+	   <%= render :partial => 'form' %>
+	<%= submit_tag 'update' %>
+	
+	         
+<% end %>
+
+<%= link_to 'Show', @list %> |
+<%= link_to 'Back', lists_path %>
+</div></div>  

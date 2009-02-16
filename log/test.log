@@ -1,0 +1,376 @@
+Unable to load image, underlying cause no such file to load -- image 
+
+ /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:102:in `require_or_load'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:61:in `depend_on'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:457:in `require_dependency'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.2/lib/active_record/fixtures.rb:855:in `try_to_load_dependency'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.2/lib/active_record/fixtures.rb:870:in `require_fixture_classes'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.2/lib/active_record/fixtures.rb:867:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.2/lib/active_record/fixtures.rb:867:in `require_fixture_classes'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.1.2/lib/active_record/fixtures.rb:850:in `fixtures'
+./test/test_helper.rb:35
+./test/unit/book_test.rb:1:in `require'
+./test/unit/book_test.rb:1
+/usr/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `load'
+/usr/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+/usr/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rake-0.8.3/lib/rake/rake_test_loader.rb:5
+  [4;36;1mSQL (0.000308)[0m   [0;1mSELECT count(*) AS count_all FROM "books" [0m
+
+
+Processing BooksController#create (for 0.0.0.0 at 2008-12-27 18:07:51) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"books", "book"=>{}}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00057 (1741 reqs/sec) | Rendering: 0.00039 (67%) | DB: 0.00218 (380%) | 401 Unauthorized [http://test.host/books?]
+  [4;35;1mSQL (0.000189)[0m   [0mSELECT count(*) AS count_all FROM "books" [0m
+  [4;36;1mSQL (0.000307)[0m   [0;1mSELECT count(*) AS count_all FROM "books" [0m
+  [4;35;1mBook Load (0.000375)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+
+
+Processing BooksController#destroy (for 0.0.0.0 at 2008-12-27 18:07:51) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00043 (2309 reqs/sec) | Rendering: 0.00018 (41%) | DB: 0.00087 (201%) | 401 Unauthorized [http://test.host/books/953125641]
+  [4;36;1mSQL (0.000227)[0m   [0;1mSELECT count(*) AS count_all FROM "books" [0m
+  [4;35;1mBook Load (0.000396)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+
+
+Processing BooksController#edit (for 0.0.0.0 at 2008-12-27 18:07:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00036 (2755 reqs/sec) | Rendering: 0.00015 (41%) | DB: 0.00062 (171%) | 401 Unauthorized [http://test.host/books/953125641/edit]
+
+
+Processing BooksController#index (for 0.0.0.0 at 2008-12-27 18:07:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.000544)[0m   [0;1mSELECT * FROM "books" ORDER BY title asc[0m
+Rendering template within layouts/books
+Rendering books/index
+Rendered books/_header_left (0.00119)
+Rendered books/_contact_info (0.00001)
+Rendered books/__right_col (0.00080)
+Completed in 0.01485 (67 reqs/sec) | Rendering: 0.01136 (76%) | DB: 0.00054 (3%) | 200 OK [http://test.host/books]
+
+
+Processing BooksController#new (for 0.0.0.0 at 2008-12-27 18:07:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00033 (3059 reqs/sec) | Rendering: 0.00013 (39%) | DB: 0.00000 (0%) | 401 Unauthorized [http://test.host/books/new]
+  [4;35;1mBook Load (0.000369)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+
+
+Processing BooksController#show (for 0.0.0.0 at 2008-12-27 18:07:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"books"}
+  [4;36;1mBook Load (0.000332)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+  [4;35;1mPicture Load (0.000143)[0m   [0mSELECT * FROM "pictures" WHERE ("pictures".book_id = 953125641) LIMIT 1[0m
+Rendering template within layouts/books
+Rendering books/show
+Rendered books/_contact_info (0.00001)
+Rendered books/_header_left_with_contact (0.00052)
+  [4;36;1mBook Load (0.000362)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+
+
+Processing BooksController#update (for 0.0.0.0 at 2008-12-27 18:07:51) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"953125641", "controller"=>"books", "book"=>{}}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00032 (3144 reqs/sec) | Rendering: 0.00013 (39%) | DB: 0.00036 (113%) | 401 Unauthorized [http://test.host/books/953125641?]
+  [4;35;1mSQL (0.000256)[0m   [0mSELECT count(*) AS count_all FROM "lists" [0m
+
+
+Processing ListsController#create (for 0.0.0.0 at 2008-12-27 18:07:51) [POST]
+  Session ID: 
+  Parameters: {"list"=>{}, "action"=>"create", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00058 (1718 reqs/sec) | Rendering: 0.00039 (66%) | DB: 0.00026 (43%) | 401 Unauthorized [http://test.host/lists?]
+  [4;36;1mSQL (0.000170)[0m   [0;1mSELECT count(*) AS count_all FROM "lists" [0m
+  [4;35;1mSQL (0.000250)[0m   [0mSELECT count(*) AS count_all FROM "lists" [0m
+  [4;36;1mList Load (0.000180)[0m   [0;1mSELECT * FROM "lists" WHERE ("lists"."id" = 953125641) [0m
+
+
+Processing ListsController#destroy (for 0.0.0.0 at 2008-12-27 18:07:51) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00031 (3184 reqs/sec) | Rendering: 0.00013 (40%) | DB: 0.00060 (191%) | 401 Unauthorized [http://test.host/lists/953125641]
+  [4;35;1mSQL (0.000161)[0m   [0mSELECT count(*) AS count_all FROM "lists" [0m
+  [4;36;1mList Load (0.000255)[0m   [0;1mSELECT * FROM "lists" WHERE ("lists"."id" = 953125641) [0m
+
+
+Processing ListsController#edit (for 0.0.0.0 at 2008-12-27 18:07:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00030 (3344 reqs/sec) | Rendering: 0.00012 (40%) | DB: 0.00042 (139%) | 401 Unauthorized [http://test.host/lists/953125641/edit]
+
+
+Processing ListsController#index (for 0.0.0.0 at 2008-12-27 18:07:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"lists"}
+  [4;35;1mList Load (0.000346)[0m   [0mSELECT * FROM "lists" [0m
+  [4;36;1mList Load (0.000089)[0m   [0;1mSELECT * FROM "lists" WHERE ("lists"."category" = 'Fairs') [0m
+
+
+Processing ListsController#new (for 0.0.0.0 at 2008-12-27 18:07:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00033 (3041 reqs/sec) | Rendering: 0.00013 (38%) | DB: 0.00044 (132%) | 401 Unauthorized [http://test.host/lists/new]
+  [4;35;1mList Load (0.000266)[0m   [0mSELECT * FROM "lists" WHERE ("lists"."id" = 953125641) [0m
+
+
+Processing ListsController#show (for 0.0.0.0 at 2008-12-27 18:07:51) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00031 (3246 reqs/sec) | Rendering: 0.00012 (39%) | DB: 0.00027 (86%) | 401 Unauthorized [http://test.host/lists/953125641]
+  [4;36;1mList Load (0.000292)[0m   [0;1mSELECT * FROM "lists" WHERE ("lists"."id" = 953125641) [0m
+
+
+Processing ListsController#update (for 0.0.0.0 at 2008-12-27 18:07:51) [PUT]
+  Session ID: 
+  Parameters: {"list"=>{}, "action"=>"update", "id"=>"953125641", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00030 (3355 reqs/sec) | Rendering: 0.00012 (40%) | DB: 0.00029 (98%) | 401 Unauthorized [http://test.host/lists/953125641?]
+  [4;36;1mSQL (0.000270)[0m   [0;1mSELECT count(*) AS count_all FROM "books" [0m
+  [4;35;1mBook Load (0.000259)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+
+
+Processing BooksController#destroy (for 0.0.0.0 at 2008-12-27 18:37:19) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00056 (1779 reqs/sec) | Rendering: 0.00038 (67%) | DB: 0.00288 (512%) | 401 Unauthorized [http://test.host/books/953125641]
+  [4;36;1mSQL (0.000184)[0m   [0;1mSELECT count(*) AS count_all FROM "books" [0m
+  [4;35;1mBook Load (0.000352)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+
+
+Processing BooksController#edit (for 0.0.0.0 at 2008-12-27 18:37:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00032 (3172 reqs/sec) | Rendering: 0.00012 (39%) | DB: 0.00054 (170%) | 401 Unauthorized [http://test.host/books/953125641/edit]
+
+
+Processing BooksController#index (for 0.0.0.0 at 2008-12-27 18:37:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;36;1mBook Load (0.000582)[0m   [0;1mSELECT * FROM "books" ORDER BY title asc[0m
+Rendering template within layouts/books
+Rendering books/index
+Rendered books/_header_left (0.00115)
+Rendered books/_contact_info (0.00002)
+Rendered books/__right_col (0.00081)
+Completed in 0.01474 (67 reqs/sec) | Rendering: 0.01125 (76%) | DB: 0.00058 (3%) | 200 OK [http://test.host/books]
+
+
+Processing BooksController#new (for 0.0.0.0 at 2008-12-27 18:37:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00031 (3269 reqs/sec) | Rendering: 0.00012 (40%) | DB: 0.00000 (0%) | 401 Unauthorized [http://test.host/books/new]
+  [4;35;1mBook Load (0.000366)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+
+
+Processing BooksController#show (for 0.0.0.0 at 2008-12-27 18:37:19) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"books"}
+  [4;36;1mBook Load (0.000303)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+  [4;35;1mPicture Load (0.000106)[0m   [0mSELECT * FROM "pictures" WHERE ("pictures".book_id = 953125641) LIMIT 1[0m
+Rendering template within layouts/books
+Rendering books/show
+Rendered books/_contact_info (0.00002)
+Rendered books/_header_left_with_contact (0.00050)
+  [4;36;1mBook Load (0.000456)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+
+
+Processing BooksController#update (for 0.0.0.0 at 2008-12-27 18:37:19) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"953125641", "controller"=>"books", "book"=>{}}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00038 (2659 reqs/sec) | Rendering: 0.00015 (40%) | DB: 0.00046 (121%) | 401 Unauthorized [http://test.host/books/953125641?]
+  [4;35;1mSQL (0.000294)[0m   [0mSELECT count(*) AS count_all FROM "lists" [0m
+
+
+Processing ListsController#create (for 0.0.0.0 at 2008-12-27 18:37:20) [POST]
+  Session ID: 
+  Parameters: {"list"=>{}, "action"=>"create", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00056 (1795 reqs/sec) | Rendering: 0.00037 (66%) | DB: 0.00029 (52%) | 401 Unauthorized [http://test.host/lists?]
+  [4;36;1mSQL (0.000169)[0m   [0;1mSELECT count(*) AS count_all FROM "lists" [0m
+  [4;35;1mSQL (0.000194)[0m   [0mSELECT count(*) AS count_all FROM "lists" [0m
+  [4;36;1mList Load (0.000170)[0m   [0;1mSELECT * FROM "lists" WHERE ("lists"."id" = 953125641) [0m
+
+
+Processing ListsController#destroy (for 0.0.0.0 at 2008-12-27 18:37:20) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00031 (3256 reqs/sec) | Rendering: 0.00013 (40%) | DB: 0.00053 (173%) | 401 Unauthorized [http://test.host/lists/953125641]
+  [4;35;1mSQL (0.000163)[0m   [0mSELECT count(*) AS count_all FROM "lists" [0m
+  [4;36;1mList Load (0.000251)[0m   [0;1mSELECT * FROM "lists" WHERE ("lists"."id" = 953125641) [0m
+
+
+Processing ListsController#edit (for 0.0.0.0 at 2008-12-27 18:37:20) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00030 (3344 reqs/sec) | Rendering: 0.00012 (41%) | DB: 0.00041 (138%) | 401 Unauthorized [http://test.host/lists/953125641/edit]
+
+
+Processing ListsController#index (for 0.0.0.0 at 2008-12-27 18:37:20) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"lists"}
+  [4;35;1mList Load (0.000358)[0m   [0mSELECT * FROM "lists" [0m
+  [4;36;1mList Load (0.000098)[0m   [0;1mSELECT * FROM "lists" WHERE ("lists"."category" = 'Fairs') [0m
+
+
+Processing ListsController#new (for 0.0.0.0 at 2008-12-27 18:37:20) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00031 (3256 reqs/sec) | Rendering: 0.00013 (40%) | DB: 0.00046 (148%) | 401 Unauthorized [http://test.host/lists/new]
+  [4;35;1mList Load (0.000269)[0m   [0mSELECT * FROM "lists" WHERE ("lists"."id" = 953125641) [0m
+
+
+Processing ListsController#show (for 0.0.0.0 at 2008-12-27 18:37:20) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00030 (3379 reqs/sec) | Rendering: 0.00012 (40%) | DB: 0.00027 (90%) | 401 Unauthorized [http://test.host/lists/953125641]
+  [4;36;1mList Load (0.000268)[0m   [0;1mSELECT * FROM "lists" WHERE ("lists"."id" = 953125641) [0m
+
+
+Processing ListsController#update (for 0.0.0.0 at 2008-12-27 18:37:20) [PUT]
+  Session ID: 
+  Parameters: {"list"=>{}, "action"=>"update", "id"=>"953125641", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00030 (3355 reqs/sec) | Rendering: 0.00012 (40%) | DB: 0.00027 (89%) | 401 Unauthorized [http://test.host/lists/953125641?]
+  [4;36;1mBook Load (0.000288)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."author" = 'nina') LIMIT 1[0m
+  [4;35;1mBook Create (0.000407)[0m   [0mINSERT INTO "books" ("print_date", "updated_at", "title", "imprint", "price", "author", "subject", "description", "heading", "created_at") VALUES(NULL, '2008-12-27 23:46:27', 'righteous', NULL, NULL, 'nina', NULL, NULL, NULL, '2008-12-27 23:46:27')[0m
+  [4;36;1mBook Load (0.000287)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."author" = 'nina') LIMIT 1[0m
+  [4;35;1mSQL (0.000253)[0m   [0mSELECT count(*) AS count_all FROM "books" [0m
+  [4;36;1mBook Load (0.000244)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+
+
+Processing BooksController#destroy (for 0.0.0.0 at 2008-12-27 18:46:27) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00058 (1723 reqs/sec) | Rendering: 0.00039 (66%) | DB: 0.00331 (570%) | 401 Unauthorized [http://test.host/books/953125641]
+  [4;35;1mSQL (0.000184)[0m   [0mSELECT count(*) AS count_all FROM "books" [0m
+  [4;36;1mBook Load (0.000346)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+
+
+Processing BooksController#edit (for 0.0.0.0 at 2008-12-27 18:46:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00031 (3194 reqs/sec) | Rendering: 0.00012 (39%) | DB: 0.00053 (169%) | 401 Unauthorized [http://test.host/books/953125641/edit]
+
+
+Processing BooksController#index (for 0.0.0.0 at 2008-12-27 18:46:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"books"}
+  [4;35;1mBook Load (0.000547)[0m   [0mSELECT * FROM "books" ORDER BY title asc[0m
+Rendering template within layouts/books
+Rendering books/index
+Rendered books/_header_left (0.00116)
+Rendered books/_contact_info (0.00001)
+Rendered books/__right_col (0.00086)
+Completed in 0.01264 (79 reqs/sec) | Rendering: 0.00919 (72%) | DB: 0.00055 (4%) | 200 OK [http://test.host/books]
+
+
+Processing BooksController#new (for 0.0.0.0 at 2008-12-27 18:46:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00032 (3146 reqs/sec) | Rendering: 0.00013 (39%) | DB: 0.00000 (0%) | 401 Unauthorized [http://test.host/books/new]
+  [4;36;1mBook Load (0.000363)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+
+
+Processing BooksController#show (for 0.0.0.0 at 2008-12-27 18:46:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"books"}
+  [4;35;1mBook Load (0.000283)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+  [4;36;1mPicture Load (0.000113)[0m   [0;1mSELECT * FROM "pictures" WHERE ("pictures".book_id = 953125641) LIMIT 1[0m
+Rendering template within layouts/books
+Rendering books/show
+Rendered books/_contact_info (0.00002)
+Rendered books/_header_left_with_contact (0.00048)
+  [4;35;1mBook Load (0.000387)[0m   [0mSELECT * FROM "books" WHERE ("books"."id" = 953125641) [0m
+
+
+Processing BooksController#update (for 0.0.0.0 at 2008-12-27 18:46:27) [PUT]
+  Session ID: 
+  Parameters: {"action"=>"update", "id"=>"953125641", "controller"=>"books", "book"=>{}}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00037 (2674 reqs/sec) | Rendering: 0.00014 (38%) | DB: 0.00039 (103%) | 401 Unauthorized [http://test.host/books/953125641?]
+  [4;36;1mSQL (0.000277)[0m   [0;1mSELECT count(*) AS count_all FROM "lists" [0m
+
+
+Processing ListsController#create (for 0.0.0.0 at 2008-12-27 18:46:27) [POST]
+  Session ID: 
+  Parameters: {"list"=>{}, "action"=>"create", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00057 (1763 reqs/sec) | Rendering: 0.00037 (65%) | DB: 0.00028 (48%) | 401 Unauthorized [http://test.host/lists?]
+  [4;35;1mSQL (0.000164)[0m   [0mSELECT count(*) AS count_all FROM "lists" [0m
+  [4;36;1mSQL (0.000183)[0m   [0;1mSELECT count(*) AS count_all FROM "lists" [0m
+  [4;35;1mList Load (0.000168)[0m   [0mSELECT * FROM "lists" WHERE ("lists"."id" = 953125641) [0m
+
+
+Processing ListsController#destroy (for 0.0.0.0 at 2008-12-27 18:46:27) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"destroy", "id"=>"953125641", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00030 (3313 reqs/sec) | Rendering: 0.00012 (40%) | DB: 0.00051 (170%) | 401 Unauthorized [http://test.host/lists/953125641]
+  [4;36;1mSQL (0.000156)[0m   [0;1mSELECT count(*) AS count_all FROM "lists" [0m
+  [4;35;1mList Load (0.000257)[0m   [0mSELECT * FROM "lists" WHERE ("lists"."id" = 953125641) [0m
+
+
+Processing ListsController#edit (for 0.0.0.0 at 2008-12-27 18:46:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"edit", "id"=>"953125641", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00029 (3398 reqs/sec) | Rendering: 0.00012 (40%) | DB: 0.00041 (140%) | 401 Unauthorized [http://test.host/lists/953125641/edit]
+
+
+Processing ListsController#index (for 0.0.0.0 at 2008-12-27 18:46:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"lists"}
+  [4;36;1mList Load (0.000349)[0m   [0;1mSELECT * FROM "lists" [0m
+  [4;35;1mList Load (0.000090)[0m   [0mSELECT * FROM "lists" WHERE ("lists"."category" = 'Fairs') [0m
+
+
+Processing ListsController#new (for 0.0.0.0 at 2008-12-27 18:46:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"new", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00030 (3310 reqs/sec) | Rendering: 0.00012 (40%) | DB: 0.00044 (145%) | 401 Unauthorized [http://test.host/lists/new]
+  [4;36;1mList Load (0.000270)[0m   [0;1mSELECT * FROM "lists" WHERE ("lists"."id" = 953125641) [0m
+
+
+Processing ListsController#show (for 0.0.0.0 at 2008-12-27 18:46:27) [GET]
+  Session ID: 
+  Parameters: {"action"=>"show", "id"=>"953125641", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00030 (3334 reqs/sec) | Rendering: 0.00012 (39%) | DB: 0.00027 (90%) | 401 Unauthorized [http://test.host/lists/953125641]
+  [4;35;1mList Load (0.000256)[0m   [0mSELECT * FROM "lists" WHERE ("lists"."id" = 953125641) [0m
+
+
+Processing ListsController#update (for 0.0.0.0 at 2008-12-27 18:46:27) [PUT]
+  Session ID: 
+  Parameters: {"list"=>{}, "action"=>"update", "id"=>"953125641", "controller"=>"lists"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00031 (3248 reqs/sec) | Rendering: 0.00012 (40%) | DB: 0.00026 (83%) | 401 Unauthorized [http://test.host/lists/953125641?]

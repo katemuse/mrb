@@ -1,0 +1,44 @@
+<%= render :partial => "books/header_left" %> 
+<%= render :partial => "books/right_col" %>  
+
+<div id="center">
+<div class="boxed">
+<h1 class="heading"> Lists</h1>
+
+<p class = "flash"><%= flash[:notice] %></p>
+<h2>Fairs</h2>
+<%# if @fairs[0].size > 0 %>  
+<% for fair in @fairs %><!-- cycle through array of arrays each of which has a list and associated pdf  -->
+ <p><%=link_to fair[1].name, "/public/pdf/#{fair[2].filename}", :type => 'application/pdf' %><% if @is_authenticated %> 
+<span class="admincontrols"><small><%= link_to 'edit', :action => 'edit', :id => fair[1]  %> |  
+	  <%= link_to 'delete', list, :confirm => 'Are you sure?', :method => :delete %>   </small></span>      
+<% end %>   </p>
+<% end %>  <p></p>
+<%# end %>
+
+	<h2>Catalogues</h2>  
+<%# if @catalogues[0].size > 0  %>   
+
+     <% for cat in @catalogues %>
+ <p><%=link_to cat[1].name, "/public/pdf/#{cat[2].filename}", :type => 'application/pdf' %><% if @is_authenticated %> 
+<span class="admincontrols"><small><%= link_to 'edit', :action => 'edit', :id => cat[1]  %> |  
+	  <%= link_to 'delete', list, :confirm => 'Are you sure?', :method => :delete %>  </small></span>      
+	 <% end %>    </p>
+	<% end %> 
+ 		<p></p>
+<%# end %> 
+
+
+<%# if @varia[0].size > 0  %>      
+	<h2>Varia</h2>
+
+<% for var in @varia %>
+ <p><%=link_to var[1].name, '#', :type => 'application/pdf' %><% if @is_authenticated %>    <!--link_to list.name "public/pdf/#{list.pdf.filename}"    -->
+<span class="admincontrols"><small><%= link_to 'edit', :action => 'edit', :id => var[1]  %> |  
+	  <%= link_to 'delete', list, :confirm => 'Are you sure?', :method => :delete %>   </small></span>      
+<% end %>  </p>  <% end %>
+ <p></p> 
+<%# end %>
+
+<%= link_to 'New list', new_list_path %>
+</div></div>

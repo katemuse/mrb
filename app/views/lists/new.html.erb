@@ -1,0 +1,15 @@
+<%= render :partial => "books/header_left" %> 
+
+<%= render :partial => "books/right_col" %>  
+
+<div id="center">
+<div class="boxed">
+	<h1 class="heading">New list</h1>
+	<% form_tag :action => 'create', :id => @list, :multipart => true  do %>                       
+		   <%= render :partial => 'form' %>
+		<%= submit_tag 'create' %>
+	
+	<% end %>
+
+<%= link_to 'Back', lists_path %>
+</div></div>

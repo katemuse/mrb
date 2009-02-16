@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  author: oneAuthor
+  title: oneTitle
+  imprint: oneImprint
+  print_date: 2008-10-25
+  description: one
+
+two:
+    author: twoAuthor
+    title: twoTitle
+    imprint: twoImprint
+    print_date: 2008-10-25
+    description: two

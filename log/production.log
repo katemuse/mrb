@@ -1,0 +1,2302 @@
+
+
+Processing ApplicationController#index (for  at 2008-11-17 23:28:51) [GET]
+  Session ID: b54db242f6827e1da73e200019fa176b
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    ./dispatch.cgi:10
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for  at 2008-11-17 23:29:17) [GET]
+  Session ID: b4a87d677132bf1a9fa1118f5d0b3aa4
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    ./dispatch.cgi:10
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for  at 2008-11-17 23:29:34) [GET]
+  Session ID: 10399930ccd3976d496deb0dbe7357a5
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    ./dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for  at 2008-11-18 00:06:00) [GET]
+  Session ID: cc865ececac60042443c1102e648766f
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    ./dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for  at 2008-11-18 00:06:41) [GET]
+  Session ID: 3a89fa8092011be7617739b98e1d3291
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    ./dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 122.166.14.197 at 2008-11-18 00:06:58) [GET]
+  Session ID: 1a4c3739424c37c7934256ce2df93f32
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/musinskyRareBooks/public/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#index (for 122.166.14.197 at 2008-11-18 00:07:08) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.03787 (26 reqs/sec) | Rendering: 0.03222 (85%) | DB: 0.00150 (3%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-18 00:07:52) [GET]
+  Session ID: a305fbd8f6dff7bbd197ed799caa507a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00289 (346 reqs/sec) | Rendering: 0.00147 (50%) | DB: 0.00076 (26%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-18 00:08:52) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.07542 (13 reqs/sec) | Rendering: 0.07434 (98%) | DB: 0.00042 (0%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-18 00:24:14) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00318 (314 reqs/sec) | Rendering: 0.00216 (67%) | DB: 0.00038 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-18 00:27:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00283 (353 reqs/sec) | Rendering: 0.00147 (51%) | DB: 0.00074 (26%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-18 00:27:13) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00331 (301 reqs/sec) | Rendering: 0.00230 (69%) | DB: 0.00037 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-18 00:28:09) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00331 (301 reqs/sec) | Rendering: 0.00228 (68%) | DB: 0.00039 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#login (for 66.30.14.168 at 2008-11-18 00:32:52) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"login", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00037 (2739 reqs/sec) | Rendering: 0.00020 (55%) | DB: 0.00000 (0%) | 401 Unauthorized [http://katemuse.net/login]
+
+
+Processing BooksController#login (for 66.30.14.168 at 2008-11-18 00:33:02) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"login", "controller"=>"books"}
+Redirected to http://katemuse.net/books
+Completed in 0.00037 (2730 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://katemuse.net/login]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-18 00:33:02) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlIhJhdXRoZW50aWNhdGVk
+BjoKQHVzZWR7BjsHRg==--1b4fb98121b55c58f01a73e7f15d3615e42c818b
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00277 (360 reqs/sec) | Rendering: 0.00146 (52%) | DB: 0.00072 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-18 00:48:18) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlIhJhdXRoZW50aWNhdGVk
+BjoKQHVzZWR7BjsHVA==--664a19a553389aeede66a971ac413e8009b6bc11
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00283 (353 reqs/sec) | Rendering: 0.00147 (51%) | DB: 0.00074 (26%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-18 00:48:24) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00330 (302 reqs/sec) | Rendering: 0.00231 (69%) | DB: 0.00037 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#edit (for 66.30.14.168 at 2008-11-18 00:48:29) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/edit
+Completed in 0.01313 (76 reqs/sec) | Rendering: 0.01235 (94%) | DB: 0.00038 (2%) | 200 OK [http://katemuse.net/books/1/edit]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-18 00:48:36) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTFjNjE3MmU5NGI1OWIy
+YzIyODhjNGU0NmE5ZTU2OTNjIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSISYXV0aGVudGljYXRlZAY6
+CkB1c2VkewY7CEY=--824a8c0acec14ada6d87ba23e3746a244f79227c
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00275 (363 reqs/sec) | Rendering: 0.00145 (52%) | DB: 0.00068 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-18 00:48:47) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTFjNjE3MmU5NGI1OWIy
+YzIyODhjNGU0NmE5ZTU2OTNjIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSISYXV0aGVudGljYXRlZAY6
+CkB1c2VkewY7CFQ=--2779b985fd1a8fdb08249eb156edea638ad26078
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00275 (364 reqs/sec) | Rendering: 0.00147 (53%) | DB: 0.00067 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-18 00:48:58) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTFjNjE3MmU5NGI1OWIy
+YzIyODhjNGU0NmE5ZTU2OTNjIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--feef1183d2eb8784719019227733f0a131b35a69
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00277 (361 reqs/sec) | Rendering: 0.00146 (52%) | DB: 0.00067 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-18 00:49:02) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTFjNjE3MmU5NGI1OWIy
+YzIyODhjNGU0NmE5ZTU2OTNjIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--feef1183d2eb8784719019227733f0a131b35a69
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00332 (301 reqs/sec) | Rendering: 0.00231 (69%) | DB: 0.00038 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-18 00:49:42) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTFjNjE3MmU5NGI1OWIy
+YzIyODhjNGU0NmE5ZTU2OTNjIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--feef1183d2eb8784719019227733f0a131b35a69
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00281 (355 reqs/sec) | Rendering: 0.00147 (52%) | DB: 0.00068 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 122.166.14.197 at 2008-11-18 01:00:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00280 (356 reqs/sec) | Rendering: 0.00144 (51%) | DB: 0.00073 (26%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 70.18.218.230 at 2008-11-18 07:54:55) [GET]
+  Session ID: 702ecf9c0651df702462c19e37b0d9c7
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.01654 (60 reqs/sec) | Rendering: 0.01067 (64%) | DB: 0.00135 (8%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-18 08:42:39) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTFjNjE3MmU5NGI1OWIy
+YzIyODhjNGU0NmE5ZTU2OTNjIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--feef1183d2eb8784719019227733f0a131b35a69
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.01619 (61 reqs/sec) | Rendering: 0.00960 (59%) | DB: 0.00030 (1%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 151.205.176.65 at 2008-11-18 08:46:51) [GET]
+  Session ID: c211cf2015829d8964a5305a519bd58a
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.01927 (51 reqs/sec) | Rendering: 0.01740 (90%) | DB: 0.00092 (4%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#login (for 151.205.176.65 at 2008-11-18 08:46:56) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"login", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00055 (1834 reqs/sec) | Rendering: 0.00037 (67%) | DB: 0.00000 (0%) | 401 Unauthorized [http://katemuse.net/login]
+
+
+Processing BooksController#index (for 151.205.176.65 at 2008-11-18 08:47:07) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00282 (354 reqs/sec) | Rendering: 0.00151 (53%) | DB: 0.00074 (26%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-18 08:47:12) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTFjNjE3MmU5NGI1OWIy
+YzIyODhjNGU0NmE5ZTU2OTNjIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--feef1183d2eb8784719019227733f0a131b35a69
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.05594 (17 reqs/sec) | Rendering: 0.00149 (2%) | DB: 0.05370 (95%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-18 08:47:13) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTFjNjE3MmU5NGI1OWIy
+YzIyODhjNGU0NmE5ZTU2OTNjIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--feef1183d2eb8784719019227733f0a131b35a69
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00315 (317 reqs/sec) | Rendering: 0.00221 (70%) | DB: 0.00034 (10%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 38.100.8.50 at 2008-11-18 15:43:03) [GET]
+  Session ID: 887f0814a6aea34f244fb571ff7d8b57
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.31463 (3 reqs/sec) | Rendering: 0.29092 (92%) | DB: 0.01690 (5%) | 200 OK [http://www.katemuse.net/books]
+
+
+Processing BooksController#show (for 38.100.8.50 at 2008-11-18 15:43:05) [GET]
+  Session ID: 9fdba6e90631e1307df5c9436d4b03b9
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.01937 (51 reqs/sec) | Rendering: 0.01833 (94%) | DB: 0.00038 (1%) | 200 OK [http://www.katemuse.net/books/2]
+
+
+Processing BooksController#show (for 38.100.8.50 at 2008-11-18 15:43:08) [GET]
+  Session ID: bcec7c10682d2214298dcb6af1700473
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00338 (295 reqs/sec) | Rendering: 0.00232 (68%) | DB: 0.00039 (11%) | 200 OK [http://www.katemuse.net/books/1]
+
+
+Processing BooksController#login (for 38.100.8.50 at 2008-11-18 15:43:12) [GET]
+  Session ID: e3c2adbc157736c17a359e69abdd7478
+  Parameters: {"action"=>"login", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00037 (2673 reqs/sec) | Rendering: 0.00022 (58%) | DB: 0.00000 (0%) | 401 Unauthorized [http://www.katemuse.net/login]
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:19) [GET]
+  Session ID: 3abbb57485431d4fb39744a66fb7e953
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/application/json" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:20) [GET]
+  Session ID: 1c7d8015b8effcd2762235b43c1751af
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/following-sibling::*" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:22) [GET]
+  Session ID: ab74933a6c44d36a1aafdea7391bd35c
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/application/x-www-form-urlencoded" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:22) [GET]
+  Session ID: 0bd90307ecbd689d1f0b569ba4b75e50
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/javascripts/application/json" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:24) [GET]
+  Session ID: bb2d3eb11b53425078d206a105fdeeaa
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/AppleWebKit/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:26) [GET]
+  Session ID: 3e3f3c322ebf12ea9183edf053be9c7c
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/following-sibling::*" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:28) [GET]
+  Session ID: d1fd7122750768d21774683adb0dd401
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/javascripts/application/x-www-form-urlencoded" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:29) [GET]
+  Session ID: 0eb182135e51c7cbbdbc1ba01c6c908f
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/application/x-www-form-urlencoded" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:31) [GET]
+  Session ID: 21fed71b7c608555f942d885df2d9564
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/*" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:32) [GET]
+  Session ID: d8ccf63544a03415084c894d9f98c93a
+  Parameters: {"_"=>""}
+
+
+ActionController::RoutingError (No route matches "/javascripts/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:34) [GET]
+  Session ID: 4e6a25d255389648c9d39c484948857c
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/javascripts/*" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:35) [GET]
+  Session ID: 53222d8c5d5cb1601803225402cf0198
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/AppleWebKit/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:36) [GET]
+  Session ID: eccd0314afdc56ac288c5a1be0b91b66
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/javascripts/AppleWebKit/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:38) [GET]
+  Session ID: a16b604d660cc719fa9a4476242e2ba8
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/application/json" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2008-11-18 15:43:39) [GET]
+  Session ID: 4d8b309e631b79cd6f62add3cad772b5
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/javascripts/application/json" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#login (for 38.100.8.50 at 2008-11-18 15:43:41) [GET]
+  Session ID: ca0a88df2c3566fd728124708df10778
+  Parameters: {"action"=>"login", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00037 (2716 reqs/sec) | Rendering: 0.00021 (57%) | DB: 0.00000 (0%) | 401 Unauthorized [http://www.katemuse.net/login]
+
+
+Processing BooksController#index (for 65.96.129.96 at 2008-11-19 01:23:39) [GET]
+  Session ID: d37f2c99ab20d3d1a068b39a799126fc
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.03318 (30 reqs/sec) | Rendering: 0.02713 (81%) | DB: 0.00149 (4%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 65.96.129.96 at 2008-11-19 01:26:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.05381 (18 reqs/sec) | Rendering: 0.00156 (2%) | DB: 0.05147 (95%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 65.96.129.96 at 2008-11-19 01:26:52) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.03506 (28 reqs/sec) | Rendering: 0.03404 (97%) | DB: 0.00038 (1%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#login (for 65.96.129.96 at 2008-11-19 01:27:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"login", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00040 (2486 reqs/sec) | Rendering: 0.00023 (58%) | DB: 0.00000 (0%) | 401 Unauthorized [http://katemuse.net/login]
+
+
+Processing BooksController#login (for 65.96.129.96 at 2008-11-19 01:27:10) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"login", "controller"=>"books"}
+Redirected to http://katemuse.net/books
+Completed in 0.05422 (18 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://katemuse.net/login]
+
+
+Processing BooksController#index (for 65.96.129.96 at 2008-11-19 01:27:11) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlIhJhdXRoZW50aWNhdGVk
+BjoKQHVzZWR7BjsHRg==--1b4fb98121b55c58f01a73e7f15d3615e42c818b
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00944 (105 reqs/sec) | Rendering: 0.00149 (15%) | DB: 0.00732 (77%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 65.96.129.96 at 2008-11-19 01:27:13) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlIhJhdXRoZW50aWNhdGVk
+BjoKQHVzZWR7BjsHVA==--664a19a553389aeede66a971ac413e8009b6bc11
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00336 (297 reqs/sec) | Rendering: 0.00234 (69%) | DB: 0.00038 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 151.205.176.65 at 2008-11-19 12:07:00) [GET]
+  Session ID: df100e97e4b8e24309210a998f719eb8
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.03190 (31 reqs/sec) | Rendering: 0.02521 (79%) | DB: 0.00191 (5%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#login (for 151.205.176.65 at 2008-11-19 12:07:13) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"login", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00052 (1908 reqs/sec) | Rendering: 0.00037 (70%) | DB: 0.00000 (0%) | 401 Unauthorized [http://katemuse.net/login]
+
+
+Processing BooksController#index (for 151.205.176.65 at 2008-11-19 12:07:26) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00270 (369 reqs/sec) | Rendering: 0.00148 (54%) | DB: 0.00067 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 151.205.176.65 at 2008-11-19 12:07:36) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00298 (335 reqs/sec) | Rendering: 0.00147 (49%) | DB: 0.00066 (22%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 151.205.176.65 at 2008-11-19 12:07:47) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00299 (334 reqs/sec) | Rendering: 0.00148 (49%) | DB: 0.00066 (22%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 151.205.176.65 at 2008-11-19 12:14:07) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00300 (333 reqs/sec) | Rendering: 0.00149 (49%) | DB: 0.00066 (22%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 151.205.176.65 at 2008-11-19 12:14:23) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.02109 (47 reqs/sec) | Rendering: 0.01983 (94%) | DB: 0.00040 (1%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 151.205.176.65 at 2008-11-19 12:14:29) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00304 (328 reqs/sec) | Rendering: 0.00148 (48%) | DB: 0.00071 (23%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 151.205.176.65 at 2008-11-19 12:14:31) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00311 (321 reqs/sec) | Rendering: 0.00188 (60%) | DB: 0.00037 (12%) | 200 OK [http://katemuse.net/books/2]
+
+
+Processing BooksController#edit (for 151.205.176.65 at 2008-11-19 12:17:18) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/edit
+Completed in 0.01019 (98 reqs/sec) | Rendering: 0.00941 (92%) | DB: 0.00037 (3%) | 200 OK [http://katemuse.net/books/2/edit]
+
+
+Processing BooksController#update (for 151.205.176.65 at 2008-11-19 12:17:41) [PUT]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTBiNjJhYzUxYzBmZWUy
+ODc0ODBkNmEzMGIzMzIyMTMxIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSISYXV0aGVudGljYXRlZAY6
+CkB1c2VkewY7CEY=--700c92fd8323fb143e462968b84f2b3226bb534e
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"3b792b7926ec8e9e7c5578305a3ce1eb833db24d", "_method"=>"put", "action"=>"update", "id"=>"2", "controller"=>"books", "book"=>{"title"=>"Paedologia", "imprint"=>"1795, Weimar", "price"=>"", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"", "heading"=>"", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). Paedologia... in puerorum usum conscripta & aucta. Dialogi XXXVII. - Christoph HEGENDORFF (1500-1540). Dialogi pueriles…XII lepidi aeque ac docti. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n                8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes. $2950.       /n/n\r\n                Rare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.  \r\n              Nice copy (occasional light fingersoiling).                               \r\n                VD-16 S 2155 & H 1167.\r\n\r\n                "}}
+Redirected to http://katemuse.net/books/2
+Completed in 0.01619 (61 reqs/sec) | DB: 0.01164 (71%) | 302 Found [http://katemuse.net/books/2]
+
+
+Processing BooksController#show (for 151.205.176.65 at 2008-11-19 12:17:41) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTBiNjJhYzUxYzBmZWUy
+ODc0ODBkNmEzMGIzMzIyMTMxIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSIjQm9vayB3YXMgc3VjY2Vz
+c2Z1bGx5IHVwZGF0ZWQuBjoKQHVzZWR7BjsIRg==--b19ef0379d5d00017c1a865a9666f770de7a0ae8
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00287 (347 reqs/sec) | Rendering: 0.00186 (64%) | DB: 0.00027 (9%) | 200 OK [http://katemuse.net/books/2]
+
+
+Processing BooksController#edit (for 151.205.176.65 at 2008-11-19 12:17:48) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTBiNjJhYzUxYzBmZWUy
+ODc0ODBkNmEzMGIzMzIyMTMxIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSIjQm9vayB3YXMgc3VjY2Vz
+c2Z1bGx5IHVwZGF0ZWQuBjoKQHVzZWR7BjsIVA==--4645f43bfff4e4e511f61c819d288ed198fcd6bc
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/edit
+Completed in 0.00374 (267 reqs/sec) | Rendering: 0.00295 (78%) | DB: 0.00039 (10%) | 200 OK [http://katemuse.net/books/2/edit]
+
+
+Processing BooksController#update (for 151.205.176.65 at 2008-11-19 12:18:15) [PUT]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTBiNjJhYzUxYzBmZWUy
+ODc0ODBkNmEzMGIzMzIyMTMxIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSISYXV0aGVudGljYXRlZAY6
+CkB1c2VkewY7CEY=--700c92fd8323fb143e462968b84f2b3226bb534e
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"3b792b7926ec8e9e7c5578305a3ce1eb833db24d", "_method"=>"put", "action"=>"update", "id"=>"2", "controller"=>"books", "book"=>{"title"=>"Paedologia", "imprint"=>"Weimar, 1795", "price"=>"$2950", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "heading"=>"", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). Paedologia... in puerorum usum conscripta & aucta. Dialogi XXXVII. - Christoph HEGENDORFF (1500-1540). Dialogi pueriles…XII lepidi aeque ac docti. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n                8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes. $2950.       \r\n                Rare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.  \r\n              Nice copy (occasional light fingersoiling).                               \r\n                VD-16 S 2155 & H 1167.\r\n\r\n                "}}
+Redirected to http://katemuse.net/books/2
+Completed in 0.00465 (214 reqs/sec) | DB: 0.00071 (15%) | 302 Found [http://katemuse.net/books/2]
+
+
+Processing BooksController#show (for 151.205.176.65 at 2008-11-19 12:18:15) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTBiNjJhYzUxYzBmZWUy
+ODc0ODBkNmEzMGIzMzIyMTMxIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSIjQm9vayB3YXMgc3VjY2Vz
+c2Z1bGx5IHVwZGF0ZWQuBjoKQHVzZWR7BjsIRg==--b19ef0379d5d00017c1a865a9666f770de7a0ae8
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00297 (337 reqs/sec) | Rendering: 0.00181 (60%) | DB: 0.00035 (11%) | 200 OK [http://katemuse.net/books/2]
+
+
+Processing BooksController#edit (for 151.205.176.65 at 2008-11-19 12:18:24) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTBiNjJhYzUxYzBmZWUy
+ODc0ODBkNmEzMGIzMzIyMTMxIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSIjQm9vayB3YXMgc3VjY2Vz
+c2Z1bGx5IHVwZGF0ZWQuBjoKQHVzZWR7BjsIVA==--4645f43bfff4e4e511f61c819d288ed198fcd6bc
+  Parameters: {"action"=>"edit", "id"=>"2", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/edit
+Completed in 0.00370 (270 reqs/sec) | Rendering: 0.00292 (79%) | DB: 0.00037 (10%) | 200 OK [http://katemuse.net/books/2/edit]
+
+
+Processing BooksController#update (for 151.205.176.65 at 2008-11-19 12:19:10) [PUT]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTBiNjJhYzUxYzBmZWUy
+ODc0ODBkNmEzMGIzMzIyMTMxIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSISYXV0aGVudGljYXRlZAY6
+CkB1c2VkewY7CEY=--700c92fd8323fb143e462968b84f2b3226bb534e
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"3b792b7926ec8e9e7c5578305a3ce1eb833db24d", "_method"=>"put", "action"=>"update", "id"=>"2", "controller"=>"books", "book"=>{"title"=>"Paedologia", "imprint"=>"Weimar, 1795", "price"=>"2950", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "heading"=>"", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). Paedologia... in puerorum usum conscripta & aucta. Dialogi XXXVII. - Christoph HEGENDORFF (1500-1540). Dialogi pueriles…XII lepidi aeque ac docti. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n                8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes. $2950.       \r\n                Rare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.  \r\n              Nice copy (occasional light fingersoiling).                               \r\n                VD-16 S 2155 & H 1167.\r\n\r\n                "}}
+Redirected to http://katemuse.net/books/2
+Completed in 0.00583 (171 reqs/sec) | DB: 0.00066 (11%) | 302 Found [http://katemuse.net/books/2]
+
+
+Processing BooksController#show (for 151.205.176.65 at 2008-11-19 12:19:10) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTBiNjJhYzUxYzBmZWUy
+ODc0ODBkNmEzMGIzMzIyMTMxIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSIjQm9vayB3YXMgc3VjY2Vz
+c2Z1bGx5IHVwZGF0ZWQuBjoKQHVzZWR7BjsIRg==--b19ef0379d5d00017c1a865a9666f770de7a0ae8
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00297 (337 reqs/sec) | Rendering: 0.00180 (60%) | DB: 0.00033 (11%) | 200 OK [http://katemuse.net/books/2]
+
+
+Processing BooksController#index (for 151.205.176.65 at 2008-11-19 12:19:25) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTBiNjJhYzUxYzBmZWUy
+ODc0ODBkNmEzMGIzMzIyMTMxIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSIjQm9vayB3YXMgc3VjY2Vz
+c2Z1bGx5IHVwZGF0ZWQuBjoKQHVzZWR7BjsIVA==--4645f43bfff4e4e511f61c819d288ed198fcd6bc
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00305 (327 reqs/sec) | Rendering: 0.00148 (48%) | DB: 0.00074 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 151.205.176.65 at 2008-11-19 12:19:30) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTBiNjJhYzUxYzBmZWUy
+ODc0ODBkNmEzMGIzMzIyMTMxIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--d48c8c72de11d793d184aea8865437c4de48687f
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00302 (331 reqs/sec) | Rendering: 0.00179 (59%) | DB: 0.00038 (12%) | 200 OK [http://katemuse.net/books/2]
+
+
+Processing BooksController#index (for 151.205.176.65 at 2008-11-19 12:28:09) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTBiNjJhYzUxYzBmZWUy
+ODc0ODBkNmEzMGIzMzIyMTMxIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--d48c8c72de11d793d184aea8865437c4de48687f
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00318 (314 reqs/sec) | Rendering: 0.00154 (48%) | DB: 0.00079 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 151.205.176.65 at 2008-11-19 12:28:16) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTBiNjJhYzUxYzBmZWUy
+ODc0ODBkNmEzMGIzMzIyMTMxIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--d48c8c72de11d793d184aea8865437c4de48687f
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00296 (337 reqs/sec) | Rendering: 0.00150 (50%) | DB: 0.00062 (21%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 151.205.176.65 at 2008-11-19 12:28:20) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTBiNjJhYzUxYzBmZWUy
+ODc0ODBkNmEzMGIzMzIyMTMxIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--d48c8c72de11d793d184aea8865437c4de48687f
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00358 (279 reqs/sec) | Rendering: 0.00235 (65%) | DB: 0.00038 (10%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing ApplicationController#index (for 140.247.40.70 at 2008-11-19 19:05:42) [GET]
+  Session ID: 196f963bd0681b27838bd6dbd44f3cbb
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/musinskyRareBooks/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#index (for 70.18.218.230 at 2008-11-19 20:15:47) [GET]
+  Session ID: a44810ed44ceb35dde14bcbbeda8b7c5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.03504 (28 reqs/sec) | Rendering: 0.02694 (76%) | DB: 0.00146 (4%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 70.18.218.230 at 2008-11-19 20:16:04) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"2", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.01136 (88 reqs/sec) | Rendering: 0.01032 (90%) | DB: 0.00040 (3%) | 200 OK [http://katemuse.net/books/2]
+
+
+Processing BooksController#index (for 140.247.40.70 at 2008-11-19 20:42:18) [GET]
+  Session ID: 32e54e0639dfc6a186d531288971fea7
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.02966 (33 reqs/sec) | Rendering: 0.00148 (4%) | DB: 0.02754 (92%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.249.67.184 at 2008-11-22 19:16:30) [GET]
+  Session ID: c2eb43862370b2b76a021f7112582560
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.01601 (62 reqs/sec) | Rendering: 0.01059 (66%) | DB: 0.00128 (8%) | 200 OK [http://www.katemuse.net/books]
+
+
+Processing BooksController#index (for 66.249.67.184 at 2008-11-23 12:04:46) [GET]
+  Session ID: e7a7ae8220c5caa07fc6b6fc3ad9fa22
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.01620 (61 reqs/sec) | Rendering: 0.01062 (65%) | DB: 0.00138 (8%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 72.30.81.162 at 2008-11-24 18:17:00) [GET]
+  Session ID: 88ec2a5cc92f7f00233f10ac8e9266c8
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.01613 (61 reqs/sec) | Rendering: 0.01063 (65%) | DB: 0.00137 (8%) | 200 OK [http://www.katemuse.net/books]
+
+
+Processing ApplicationController#index (for 66.30.14.168 at 2008-11-25 00:27:12) [GET]
+  Session ID: b671c32a59ef313f9a058edfaff15720
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/musinskyRareBooks/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 00:48:31) [GET]
+  Session ID: 4bbc7a906ff65ce42e1a9bcb586e887c
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.02652 (37 reqs/sec) | Rendering: 0.01774 (66%) | DB: 0.00134 (5%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#login (for 66.30.14.168 at 2008-11-25 00:48:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"login", "controller"=>"books"}
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0.00037 (2732 reqs/sec) | Rendering: 0.00021 (57%) | DB: 0.00000 (0%) | 401 Unauthorized [http://katemuse.net/login]
+
+
+Processing BooksController#login (for 66.30.14.168 at 2008-11-25 00:48:40) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"login", "controller"=>"books"}
+Redirected to http://katemuse.net/books
+Completed in 0.00039 (2597 reqs/sec) | DB: 0.00000 (0%) | 302 Found [http://katemuse.net/login]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 00:48:40) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlIhJhdXRoZW50aWNhdGVk
+BjoKQHVzZWR7BjsHRg==--1b4fb98121b55c58f01a73e7f15d3615e42c818b
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00276 (361 reqs/sec) | Rendering: 0.00146 (52%) | DB: 0.00071 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 00:49:10) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7BjoLbm90aWNlIhJhdXRoZW50aWNhdGVk
+BjoKQHVzZWR7BjsHVA==--664a19a553389aeede66a971ac413e8009b6bc11
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00606 (164 reqs/sec) | Rendering: 0.00501 (82%) | DB: 0.00041 (6%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#edit (for 66.30.14.168 at 2008-11-25 00:49:22) [GET]
+  Session ID: BAh7BzoNdXNlcm5hbWUiCW5pbmEiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xs
+ZXI6OkZsYXNoOjpGbGFzaEhhc2h7AAY6CkB1c2VkewA=--451f150c538ab9dc49c06caf04aefea2e6e3f2ba
+  Parameters: {"action"=>"edit", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/edit
+Completed in 0.00579 (172 reqs/sec) | Rendering: 0.00501 (86%) | DB: 0.00038 (6%) | 200 OK [http://katemuse.net/books/1/edit]
+
+
+Processing BooksController#new (for 66.30.14.168 at 2008-11-25 00:49:51) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSISYXV0aGVudGljYXRlZAY6
+CkB1c2VkewY7CEY=--62f35358a5bf7f8cbe5c55c472c2576aead9290e
+  Parameters: {"action"=>"new", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/new
+Completed in 0.00532 (188 reqs/sec) | Rendering: 0.00478 (89%) | DB: 0.00000 (0%) | 200 OK [http://katemuse.net/books/new]
+
+
+Processing BooksController#create (for 66.30.14.168 at 2008-11-25 00:50:19) [POST]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSISYXV0aGVudGljYXRlZAY6
+CkB1c2VkewY7CEY=--62f35358a5bf7f8cbe5c55c472c2576aead9290e
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"f666550b7ab26b32fdbdab4c21507d8b8727424b", "action"=>"create", "controller"=>"books", "book"=>{"title"=>"testing italic making", "imprint"=>"", "price"=>"", "author"=>"nina", "subject"=>"", "heading"=>"", "description"=>"try <i> this. </i>"}}
+Redirected to http://katemuse.net/books/3
+Completed in 0.01420 (70 reqs/sec) | DB: 0.01062 (74%) | 302 Found [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 00:50:19) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSIjQm9vayB3YXMgc3VjY2Vz
+c2Z1bGx5IGNyZWF0ZWQuBjoKQHVzZWR7BjsIRg==--f1e5ba8550fd8cef2bcbf4aeed97a60d47df439d
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00214 (467 reqs/sec) | Rendering: 0.00130 (60%) | DB: 0.00028 (13%) | 200 OK [http://katemuse.net/books/3]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 00:50:53) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewY6C25vdGljZSIjQm9vayB3YXMgc3VjY2Vz
+c2Z1bGx5IGNyZWF0ZWQuBjoKQHVzZWR7BjsIVA==--7b421d0bf5bce60a871110b1d9f10d8d018e2d83
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00232 (431 reqs/sec) | Rendering: 0.00132 (56%) | DB: 0.00036 (15%) | 200 OK [http://katemuse.net/books/3]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 00:51:06) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00232 (431 reqs/sec) | Rendering: 0.00132 (56%) | DB: 0.00036 (15%) | 200 OK [http://katemuse.net/books/3]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 00:51:14) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"show", "id"=>"3", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00230 (435 reqs/sec) | Rendering: 0.00131 (56%) | DB: 0.00035 (15%) | 200 OK [http://katemuse.net/books/3]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 00:51:41) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00306 (326 reqs/sec) | Rendering: 0.00163 (53%) | DB: 0.00077 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 00:51:44) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00318 (314 reqs/sec) | Rendering: 0.00224 (70%) | DB: 0.00034 (10%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:01:55) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00304 (328 reqs/sec) | Rendering: 0.00163 (53%) | DB: 0.00075 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:01:59) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00302 (330 reqs/sec) | Rendering: 0.00162 (53%) | DB: 0.00074 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:02:45) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00309 (324 reqs/sec) | Rendering: 0.00162 (52%) | DB: 0.00080 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:02:47) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00307 (326 reqs/sec) | Rendering: 0.00164 (53%) | DB: 0.00076 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:02:51) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00304 (329 reqs/sec) | Rendering: 0.00164 (53%) | DB: 0.00074 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:02:53) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00282 (355 reqs/sec) | Rendering: 0.00154 (54%) | DB: 0.00067 (23%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 01:02:57) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00334 (299 reqs/sec) | Rendering: 0.00231 (69%) | DB: 0.00038 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:04:12) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00305 (327 reqs/sec) | Rendering: 0.00163 (53%) | DB: 0.00076 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:04:42) [GET]
+  Session ID: 3a00a83e69e097ee2663f8291ff9220b
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00310 (322 reqs/sec) | Rendering: 0.00163 (52%) | DB: 0.00075 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:06:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00309 (323 reqs/sec) | Rendering: 0.00161 (52%) | DB: 0.00076 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:06:19) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00314 (318 reqs/sec) | Rendering: 0.00162 (51%) | DB: 0.00080 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:06:41) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00309 (323 reqs/sec) | Rendering: 0.00162 (52%) | DB: 0.00075 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:07:50) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00313 (319 reqs/sec) | Rendering: 0.00162 (51%) | DB: 0.00080 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:13:42) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00314 (318 reqs/sec) | Rendering: 0.00162 (51%) | DB: 0.00079 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:15:01) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00311 (321 reqs/sec) | Rendering: 0.00163 (52%) | DB: 0.00076 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:15:13) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00334 (299 reqs/sec) | Rendering: 0.00188 (56%) | DB: 0.00074 (22%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:16:37) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00306 (327 reqs/sec) | Rendering: 0.00164 (53%) | DB: 0.00075 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:18:44) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00312 (320 reqs/sec) | Rendering: 0.00166 (53%) | DB: 0.00079 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:19:12) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00308 (324 reqs/sec) | Rendering: 0.00163 (52%) | DB: 0.00079 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 01:19:41) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00336 (297 reqs/sec) | Rendering: 0.00227 (67%) | DB: 0.00039 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:19:50) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00298 (335 reqs/sec) | Rendering: 0.00158 (53%) | DB: 0.00073 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:23:37) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00317 (315 reqs/sec) | Rendering: 0.00163 (51%) | DB: 0.00084 (26%) | 200 OK [http://katemuse.net/books]
+
+
+Processing ApplicationController#index (for 66.30.14.168 at 2008-11-25 01:24:23) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/musinskyRareBooks/app/views/books/_right_col.html.erb" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 01:26:27) [GET]
+  Session ID: BAh7CDoNdXNlcm5hbWUiCW5pbmE6DGNzcmZfaWQiJTExODA4NzQ3MmM5MDMx
+MGQ2MGEyNzI3ZjBjNmJiOWRkIgpmbGFzaElDOidBY3Rpb25Db250cm9sbGVy
+OjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a3621ff77571908460406e2347be392095b936e5
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00312 (320 reqs/sec) | Rendering: 0.00165 (52%) | DB: 0.00080 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 10:29:55) [GET]
+  Session ID: 43507d6c866d12e73adfc0ac468aa325
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.04419 (22 reqs/sec) | Rendering: 0.03410 (77%) | DB: 0.00554 (12%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 10:29:55) [GET]
+  Session ID: 4ab0ee859593b98321a038fc040c62d4
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00290 (344 reqs/sec) | Rendering: 0.00165 (56%) | DB: 0.00066 (22%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 10:30:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00309 (323 reqs/sec) | Rendering: 0.00162 (52%) | DB: 0.00081 (26%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 10:30:12) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.01535 (65 reqs/sec) | Rendering: 0.01432 (93%) | DB: 0.00040 (2%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 10:33:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00305 (327 reqs/sec) | Rendering: 0.00160 (52%) | DB: 0.00079 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 10:33:47) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00301 (332 reqs/sec) | Rendering: 0.00161 (53%) | DB: 0.00074 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 10:33:53) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00301 (332 reqs/sec) | Rendering: 0.00160 (53%) | DB: 0.00075 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 10:34:42) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00302 (330 reqs/sec) | Rendering: 0.00161 (53%) | DB: 0.00076 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 10:34:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00328 (304 reqs/sec) | Rendering: 0.00226 (68%) | DB: 0.00038 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing ApplicationController#index (for 66.30.14.168 at 2008-11-25 10:35:25) [GET]
+  Session ID: 569631dded5c0f267134b77d8c4d1d1f
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/musinskyRareBooks/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 10:40:45) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00329 (303 reqs/sec) | Rendering: 0.00226 (68%) | DB: 0.00038 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 10:40:47) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00328 (305 reqs/sec) | Rendering: 0.00226 (68%) | DB: 0.00038 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 10:40:49) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00328 (304 reqs/sec) | Rendering: 0.00227 (69%) | DB: 0.00038 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 10:40:56) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00330 (303 reqs/sec) | Rendering: 0.00226 (68%) | DB: 0.00039 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 10:40:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00329 (303 reqs/sec) | Rendering: 0.00227 (68%) | DB: 0.00037 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 10:41:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00306 (326 reqs/sec) | Rendering: 0.00161 (52%) | DB: 0.00079 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 10:41:08) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00303 (330 reqs/sec) | Rendering: 0.00161 (53%) | DB: 0.00074 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing ApplicationController#index (for 66.30.14.168 at 2008-11-25 10:41:27) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/musinskyRareBooks/app/views/books/show.html.erb" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 10:41:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00307 (326 reqs/sec) | Rendering: 0.00161 (52%) | DB: 0.00074 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing ApplicationController#index (for 66.30.14.168 at 2008-11-25 10:43:12) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/musinskyRareBooks/public/stylesheets/scaffold.css" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.14.168 at 2008-11-25 10:43:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/musinskyRareBooks/public/stylesheets/scaffold.css" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.14.168 at 2008-11-25 10:43:38) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/musinskyRareBooks/public/stylesheets/scaffold.css" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.14.168 at 2008-11-25 10:44:35) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/musinskyRareBooks/public/stylesheets/scaffold.css" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.14.168 at 2008-11-25 10:45:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/musinskyRareBooks/public/stylesheets/scaffold.css" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.14.168 at 2008-11-25 10:49:44) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/musinskyRareBooks/app/views/books/_header_left.html.erb" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 10:50:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00313 (318 reqs/sec) | Rendering: 0.00160 (51%) | DB: 0.00081 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 10:50:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00305 (328 reqs/sec) | Rendering: 0.00162 (53%) | DB: 0.00075 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 12:15:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.03974 (25 reqs/sec) | Rendering: 0.03383 (85%) | DB: 0.00165 (4%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 12:16:27) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00313 (318 reqs/sec) | Rendering: 0.00172 (54%) | DB: 0.00076 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 12:18:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00320 (312 reqs/sec) | Rendering: 0.00171 (53%) | DB: 0.00083 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 12:18:38) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00314 (318 reqs/sec) | Rendering: 0.00172 (54%) | DB: 0.00075 (23%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 12:18:54) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.01510 (66 reqs/sec) | Rendering: 0.00964 (63%) | DB: 0.00144 (9%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 12:19:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00319 (313 reqs/sec) | Rendering: 0.00169 (52%) | DB: 0.00084 (26%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 12:20:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00324 (308 reqs/sec) | Rendering: 0.00173 (53%) | DB: 0.00084 (26%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 12:20:24) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.02863 (34 reqs/sec) | Rendering: 0.02759 (96%) | DB: 0.00040 (1%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 12:20:31) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00311 (321 reqs/sec) | Rendering: 0.00169 (54%) | DB: 0.00076 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 12:20:38) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.00343 (291 reqs/sec) | Rendering: 0.00238 (69%) | DB: 0.00039 (11%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 12:21:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00325 (307 reqs/sec) | Rendering: 0.00172 (53%) | DB: 0.00086 (26%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 12:26:18) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00453 (220 reqs/sec) | Rendering: 0.00173 (38%) | DB: 0.00213 (46%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 22:08:53) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.04990 (20 reqs/sec) | Rendering: 0.04411 (88%) | DB: 0.00151 (3%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 22:16:01) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00327 (306 reqs/sec) | Rendering: 0.00171 (52%) | DB: 0.00082 (25%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.14.168 at 2008-11-25 22:16:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"show", "id"=>"1", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/show
+Completed in 0.01510 (66 reqs/sec) | Rendering: 0.01402 (92%) | DB: 0.00039 (2%) | 200 OK [http://katemuse.net/books/1]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 22:17:01) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00317 (315 reqs/sec) | Rendering: 0.00170 (53%) | DB: 0.00075 (23%) | 200 OK [http://katemuse.net/books]
+
+
+Processing ApplicationController#index (for 66.30.14.168 at 2008-11-25 22:17:24) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/app/views/books/index.html.erb" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.1/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:103:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:153:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:78:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:77:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:50:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.1/lib/fcgi_handler.rb:24:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 22:17:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00322 (310 reqs/sec) | Rendering: 0.00171 (52%) | DB: 0.00080 (24%) | 200 OK [http://katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.14.168 at 2008-11-25 22:17:38) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
+  Parameters: {"action"=>"index", "controller"=>"books"}
+Rendering template within layouts/books
+Rendering books/index
+Completed in 0.00318 (314 reqs/sec) | Rendering: 0.00172 (54%) | DB: 0.00075 (23%) | 200 OK [http://katemuse.net/books]

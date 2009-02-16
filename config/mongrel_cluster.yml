@@ -1,0 +1,8 @@
+--- 
+cwd: /public_html/MusinskyRareBooks
+log_file: log/mongrel.log
+port: "12001"
+environment: production
+address: box478.bluehost.com
+pid_file: tmp/pids/mongrel.pid
+servers: 2

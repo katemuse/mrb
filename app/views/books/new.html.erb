@@ -1,0 +1,24 @@
+<%= render :partial => "header_left" %>      
+
+<%= render :partial => "_right_col" %>
+
+<div id="center">
+<div class="boxed">
+<h1 class="heading">Create new book</h1>   
+
+
+
+
+<p class = "flash"><%= flash[:notice] %></p>
+<%= error_messages_for :book, :picture %>
+<h1>New book</h1>
+
+
+<!--h2>Editing book</h2-->
+ <% form_tag :action => 'create', :id => @book do %>                       
+	   <%= render :partial => 'form' %>
+	<p><%= submit_tag 'create' %>  ></p>
+<% end %>
+
+<span class="admincontrols"><%= link_to 'Back to short-title list', books_path %> </span> </div></div>
+  

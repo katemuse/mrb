@@ -1,0 +1,8 @@
+3/19/08	Web design	60.00	06:05	365.00	type 1.25 hr
+
+10/25/08	Development	60.00	33:19	799.00	RoR skeleton site setup
+10/26/08	hosting	166.80	NA	166.80	
+11/18/08	credit from hosts cancellation	-96.80	NA	-96.80	bluehost returned 156.80, railsplayground charged 60 
+12/15/08	Payment	-689.00	NA	-689.00	
+11/25/08	Web Design	60.00	03:11	191.00	
+11/29/08	Google prefs	0	00:15	0	

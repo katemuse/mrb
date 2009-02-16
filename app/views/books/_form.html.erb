@@ -1,0 +1,33 @@
+  <p> <%= error_messages_for :book %>  </p>
+  <p>  <%= label :book, :author %>   <br />
+    <%= text_field :book, :author %>
+  </p>
+  <p>
+    <%=  label :book,  :title %>    <br />
+    <%= text_field :book, :title %>
+  </p>
+  <p>
+    <%=  label :book,  :imprint %>    <br />
+    <%= text_field :book, :imprint %>
+  </p>
+  <p>
+    <%=  label :book,  :subject %>     <br />
+    <%= text_field :book, :subject %>
+  </p>  
+  <p>
+    <%=  label :book,  :price %>      <br />
+    <%= text_field :book, :price %>
+  </p>    
+  <p>
+    <%=  label :book,  :heading %>    <br />
+    <%= text_field :book, :heading %>
+  </p>
+  <p>
+    <%=  label :book,  :description %>      <br />
+    <%= text_area :book, :description, :cols => 72 %>
+  </p>
+<p>
+ 	<%= label :book, :picture %>
+	<%= file_field_tag :picture_file %> 
+	<span class="admincontrols">Upload jpeg, gif or png files up to 500 kb. <br/> Unless new or different image is desired, this may be left blank. </span>
+ </p>

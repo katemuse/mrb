@@ -1,0 +1,21 @@
+<p><%= error_messages_for :lists, :pdfs  %></p>
+
+<p><%= label :list, :name %>:   <%= text_field :list, :name %> </p>
+	  
+	
+	<h4>Fairs<%= radio_button(:list, :category, 'Fairs') %>  <br/>
+	    Catalogues<%= radio_button(:list, :category, 'Catalogues') %>       <br/>
+	    Varia<%= radio_button(:list, :category, 'Varia') %> </h4> 
+
+	  <p> 
+	</p> <!-- to mix multiple models in one form, I am using the fields_for block, which doesn't play nice with the file_field_tag.  It seems you need to use file_field.      -->
+	 	  
+	<% fields_for 'list[pdf_attributes]', @pdf do |pdf| %> <!-- see railscast episode 073, podcast version (qt broken)  -->
+	<%= pdf.label  :pdf %>
+    <%= pdf.file_field :pdf_file %>  <span class="admincontrols">Upload pdf</span> 
+ <% end %>
+
+   
+	  
+	 </p>
+	  <p>

@@ -1,0 +1,22 @@
+<%= render :partial => "header_left" %>  
+
+<div id="centerwide">
+<div class="boxed">
+<h1 class="heading">Edit</h1>   
+
+         <p class = "flash"><%= flash[:notice] %></p>  
+
+
+<!--h2>Editing book</h2-->
+ <% form_tag :action => 'update', :id => @book do %>                       
+	   <%= render :partial => 'form' %>
+	<p><%= submit_tag 'update' %>  ></p>
+ <% end %>   
+	
+
+<span class="admincontrols"><%= link_to 'Show', @book %> |
+
+
+	
+	<%= link_to 'Back to short-title list', books_path %> </span>
+  </div></div>

@@ -1,0 +1,47 @@
+<%= render :partial => "header_left" %> 
+<%= render :partial => "_right_col" %>  
+
+<div id="center">
+<div class="boxed">
+<h1 class="heading">Inventory</h1>   
+
+
+
+
+<p class = "flash"><%= flash[:notice] %></p>
+
+<!--<h2></h2>-->
+
+
+    <p/>
+
+<% for book in @books %>
+  
+    <p><%=link_to book.author, book %> 
+  <br/>
+<i><%=link_to  book.title, book %> </i>
+ <br/>    
+      <%=link_to  book.imprint, book %><% if @is_authenticated %> 
+<span class="admincontrols">
+ <%= link_to 'Edit', :action => 'edit', :id => book  %> |  
+  <%= link_to 'Delete', book, :confirm => 'Are you sure?', :method => :delete %> </span>     
+ <% end %> <%# end is_authenticated %>
+ 
+
+<% end %> <%# end for book in @books %>
+
+
+<br />
+
+
+   
+     <!--<div id="right"><div class="boxed">
+	<h1 class="heading">&nbsp;</h1>   
+	</div></div>   --> 
+	
+ <% if @is_authenticated %> 
+<span class="admincontrols"><%= link_to 'New ', :action => 'new' %>  </span>      
+<% end %>
+  </div></div>      
+
+  
