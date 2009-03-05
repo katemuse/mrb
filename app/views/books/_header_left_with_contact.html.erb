@@ -9,7 +9,7 @@
 			<ul>    
 			   <li> <%= link_to "home", { :controller => '/', :action => :index } %></li>
 			<li> <%= link_to "stock", { :controller => '/books', :action => :index } %></li>
-                <li> <%= link_to "lists", { :controller => '/lists', :action => :index } %></li> 
+                <!--li--> <!--= link_to "lists", { :controller => '/lists', :action => :index } %></li--> 
               	   <% unless @is_authenticated %>	
 					<li> <%= link_to "log in", login_path %></li>  
 					<% end %>

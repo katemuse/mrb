@@ -1,15 +1,14 @@
-set :application, "musinskyRareBooks"
-set :repository,  "http://katemuse.svnrepository.com/git/musinskyrepos/ "
+set :user, "musinsky"
+set :application, "Musinsky Rare Books"  
+set :applicationdir, "musinskyRareBooks" 
+set :repository,  "git@github.com:katemuse/mrb.git"
+set :deploy_to, "/home/#{user}/#{applicationdir}"   
+set :deploy_via, :remote_cache
+ssh_options[:paranoid] = false
+set :scm, "git"
+set :scm_passphrase, "hildala8"
 
-# If you aren't deploying to /u/apps/#{application} on the target
-# servers (which is the default), you can specify the actual location
-# via the :deploy_to variable:
-set :deploy_to, "~/#{application}"
-
-# If you aren't using Subversion to manage your source code, specify
-# your SCM below:
-set :scm, :git
-
-role :app, "musinsky@katemuse.net"
-role :web, "musinsky@katemuse.net"
-role :db,  "musinsky@katemuse.net", :primary => true
+set :branch, "master" 
+role :app, "katemuse.net"
+role :web, "katemuse.net"
+role :db,  "katemuse.net", :primary => true

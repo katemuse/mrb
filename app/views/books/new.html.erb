@@ -15,7 +15,7 @@
 
 
 <!--h2>Editing book</h2-->
- <% form_tag :action => 'create', :id => @book do %>                       
+ <% form_tag({:action => 'create', :id => @book}, :multipart => true) do %>                       
 	   <%= render :partial => 'form' %>
 	<p><%= submit_tag 'create' %>  ></p>
 <% end %>

@@ -8,9 +8,10 @@
 
 
 <!--h2>Editing book</h2-->
- <% form_tag :action => 'update', :id => @book do %>                       
+ <% form_tag({:action => 'update', :id => @book}, :method => 'put', :multipart => true) do %>    
+ 	<%= error_messages_for :books %>                   
 	   <%= render :partial => 'form' %>
-	<p><%= submit_tag 'update' %>  ></p>
+	<p><%= submit_tag 'update' %></p>
  <% end %>   
 	
 

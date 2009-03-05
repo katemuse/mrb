@@ -17,7 +17,11 @@
 
 <% for book in @books %>
   
-    <p><%=link_to book.author, book %> 
+    <p><%=link_to book.author, book %>  
+	<span style="font-style: italic"">
+	<%= number_to_currency(book.price, :precision => 0) %> </span>  
+
+ 
   <br/>
 <i><%=link_to  book.title, book %> </i>
  <br/>    

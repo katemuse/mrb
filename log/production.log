@@ -2300,3 +2300,2139 @@ SGFzaHsABjoKQHVzZWR7AA==--7312ba2231a4b8f43d9ca5d506f3403f81daa589
 Rendering template within layouts/books
 Rendering books/index
 Completed in 0.00318 (314 reqs/sec) | Rendering: 0.00172 (54%) | DB: 0.00075 (23%) | 200 OK [http://katemuse.net/books]
+
+
+Processing ApplicationController#index (for  at 2009-03-03 18:25:48) [GET]
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    ./dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for  at 2009-03-03 18:26:16) [GET]
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    ./dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for  at 2009-03-03 18:29:47) [GET]
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    ./dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for  at 2009-03-03 18:30:26) [GET]
+
+
+ActionController::RoutingError (No route matches "" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:606:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    ./dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 122.166.14.197 at 2009-03-03 18:31:28) [GET]
+
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 122.166.14.197 at 2009-03-03 18:31:40) [GET]
+
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 122.166.14.197 at 2009-03-03 18:32:27) [GET]
+
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 122.166.14.197 at 2009-03-03 18:32:36) [GET]
+
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 70.62.68.123 at 2009-03-03 18:35:34) [GET]
+
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#index (for 70.62.68.123 at 2009-03-03 18:35:45) [GET]
+Rendering template within layouts/books
+Rendering books/index
+Completed in 37ms (View: 11, DB: 24) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#index (for 70.62.68.123 at 2009-03-03 18:35:49) [GET]
+Rendering template within layouts/books
+Rendering books/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing ListsController#index (for 70.62.68.123 at 2009-03-03 18:35:50) [GET]
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: lists: SELECT * FROM "lists" ):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:589:in `find'
+    /app/controllers/lists_controller.rb:11:in `index'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing ApplicationController#index (for 66.30.9.143 at 2009-03-03 18:45:11) [GET]
+
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.9.143 at 2009-03-03 18:45:14) [GET]
+
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-03 18:45:22) [GET]
+Rendering template within layouts/books
+Rendering books/index
+Completed in 37ms (View: 2, DB: 34) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing ApplicationController#index (for 66.30.9.143 at 2009-03-03 19:14:41) [GET]
+
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.9.143 at 2009-03-03 19:14:43) [GET]
+
+
+ActionController::RoutingError (No route matches "/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.9.143 at 2009-03-03 19:14:56) [GET]
+
+
+ActionController::RoutingError (No route matches "/welcome" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.9.143 at 2009-03-03 19:15:02) [GET]
+
+
+ActionController::RoutingError (No route matches "/welcome/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.9.143 at 2009-03-03 19:17:57) [GET]
+
+
+ActionController::RoutingError (No route matches "/welcome/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.9.143 at 2009-03-03 19:17:59) [GET]
+
+
+ActionController::RoutingError (No route matches "/welcome/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.9.143 at 2009-03-03 19:18:06) [GET]
+
+
+ActionController::RoutingError (No route matches "/welcome/index" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.9.143 at 2009-03-03 19:18:13) [GET]
+
+
+ActionController::RoutingError (No route matches "/welcome/index" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 66.30.9.143 at 2009-03-03 19:23:24) [GET]
+
+
+ActionController::RoutingError (No route matches "/welcome/index" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 19:24:06) [GET]
+Rendering welcome/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/welcome/index]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 19:24:07) [GET]
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/welcome/index]
+
+
+Processing WelcomeController#images to gif (for 66.30.9.143 at 2009-03-03 19:24:07) [GET]
+  Parameters: {"id"=>"abaa"}
+
+
+ActionController::UnknownAction (No action responded to images. Actions: index):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-03 19:24:17) [GET]
+Rendering template within layouts/books
+Rendering books/index
+Completed in 32ms (View: 6, DB: 23) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 19:26:02) [GET]
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 19:29:09) [GET]
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 19:29:11) [GET]
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 19:34:57) [GET]
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 19:34:58) [GET]
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 19:35:49) [GET]
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 19:35:51) [GET]
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 19:35:52) [GET]
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 19:36:09) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-03 19:36:17) [GET]
+Rendering template within layouts/books
+Rendering books/index
+Completed in 16ms (View: 6, DB: 9) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#edit (for 66.30.9.143 at 2009-03-03 19:36:25) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/books
+Rendering books/edit
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2/edit]
+
+
+Processing ListsController#index (for 66.30.9.143 at 2009-03-03 19:36:31) [GET]
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: lists: SELECT * FROM "lists" ):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:589:in `find'
+    /app/controllers/lists_controller.rb:11:in `index'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing ListsController#index (for 66.30.9.143 at 2009-03-03 19:37:39) [GET]
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: lists: SELECT * FROM "lists" ):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:589:in `find'
+    /app/controllers/lists_controller.rb:11:in `index'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing ListsController#index (for 66.30.9.143 at 2009-03-03 19:37:42) [GET]
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: lists: SELECT * FROM "lists" ):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:589:in `find'
+    /app/controllers/lists_controller.rb:11:in `index'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-03 19:39:26) [GET]
+Rendering template within layouts/books
+Rendering books/index
+Completed in 26ms (View: 2, DB: 23) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 19:46:52) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-03 19:47:00) [GET]
+Rendering template within layouts/books
+Rendering books/index
+Completed in 43ms (View: 2, DB: 41) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing ListsController#index (for 66.30.9.143 at 2009-03-03 19:47:02) [GET]
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: lists: SELECT * FROM "lists" ):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:589:in `find'
+    /app/controllers/lists_controller.rb:11:in `index'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing ListsController#new (for 66.30.9.143 at 2009-03-03 19:54:31) [GET]
+
+
+ActiveRecord::StatementInvalid (Could not find table 'lists'):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:29:in `table_structure'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/object/misc.rb:39:in `returning'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite3_adapter.rb:28:in `table_structure'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:189:in `columns'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1220:in `columns'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:2839:in `attributes_from_column_definition_without_lock'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/locking/optimistic.rb:55:in `attributes_from_column_definition'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:2279:in `initialize'
+    /app/controllers/lists_controller.rb:47:in `new'
+    /app/controllers/lists_controller.rb:47:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 20:41:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 20:41:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 20:42:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-03 20:42:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-03 20:42:18) [GET]
+Rendering template within layouts/books
+Rendering books/index
+Completed in 49ms (View: 2, DB: 46) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing ListsController#index (for 66.30.9.143 at 2009-03-03 20:42:25) [GET]
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: lists: SELECT * FROM "lists" ):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:589:in `find'
+    /app/controllers/lists_controller.rb:11:in `index'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-03 20:44:36) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 45ms (View: 26, DB: 17) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-03 20:47:55) [GET]
+  Parameters: {"id"=>"2"}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:20:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#edit (for 66.30.9.143 at 2009-03-03 20:48:10) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2/edit]
+
+
+Processing BooksController#2 (for 66.30.9.143 at 2009-03-03 20:48:19) [POST]
+  Parameters: {"picture_file"=>"", "commit"=>"update", "authenticity_token"=>"624e7a971570039dcc310b8bb83ef993f49c0cd0", "book"=>{"price"=>"2950", "imprint"=>"Weimar, 1795", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+
+
+ActionController::UnknownAction (No action responded to 2. Actions: create, destroy, edit, index, login, new, old_list, show, and update):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#2 (for 66.30.9.143 at 2009-03-03 20:51:33) [POST]
+  Parameters: {"picture_file"=>"", "commit"=>"update", "authenticity_token"=>"624e7a971570039dcc310b8bb83ef993f49c0cd0", "book"=>{"price"=>"2950", "imprint"=>"Weimar, 1795", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+
+
+ActionController::UnknownAction (No action responded to 2. Actions: create, destroy, edit, index, login, new, old_list, show, and update):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-03 20:52:43) [GET]
+  Parameters: {"id"=>"2"}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:20:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-03 20:54:32) [GET]
+  Parameters: {"id"=>"2"}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:20:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-03 20:55:20) [GET]
+  Parameters: {"id"=>"2"}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:20:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-03 20:56:11) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-03 20:56:16) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#login (for 151.205.98.195 at 2009-03-03 20:56:25) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0ms (View: 0, DB: 0) | 401 Unauthorized [http://musinskyrarebooks.katemuse.net/login]
+
+
+Processing BooksController#login (for 151.205.98.195 at 2009-03-03 20:56:39) [GET]
+Redirected to actionindex
+Completed in 0ms (DB: 0) | 302 Found [http://musinskyrarebooks.katemuse.net/login]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-03 20:56:39) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 11ms (View: 2, DB: 8) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-03 20:56:46) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-03 20:56:49) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 15ms (View: 2, DB: 12) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-03 20:56:54) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-03 20:56:57) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 6ms (View: 2, DB: 3) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 151.205.98.195 at 2009-03-03 20:56:58) [GET]
+  Parameters: {"id"=>"2"}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:20:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-03 20:57:02) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 14ms (View: 2, DB: 11) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-03 20:57:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-03 20:57:08) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 876ms (View: 2, DB: 874) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-03 21:00:32) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-03 21:01:11) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 147ms (View: 2, DB: 144) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#2 (for 66.30.9.143 at 2009-03-04 10:02:36) [POST]
+  Parameters: {"picture_file"=>"", "commit"=>"update", "authenticity_token"=>"624e7a971570039dcc310b8bb83ef993f49c0cd0", "book"=>{"price"=>"2950", "imprint"=>"Weimar, 1795", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+
+
+ActionController::UnknownAction (No action responded to 2. Actions: create, destroy, edit, index, login, new, old_list, show, and update):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#2 (for 66.30.9.143 at 2009-03-05 11:29:07) [POST]
+  Parameters: {"picture_file"=>"", "commit"=>"update", "authenticity_token"=>"624e7a971570039dcc310b8bb83ef993f49c0cd0", "book"=>{"price"=>"2950", "imprint"=>"Weimar, 1795", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+
+
+ActionController::UnknownAction (No action responded to 2. Actions: create, destroy, edit, index, login, new, old_list, show, and update):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing BooksController#edit (for 66.30.9.143 at 2009-03-05 11:29:11) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2/edit]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 11:29:12) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 11:29:14) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 11:29:18) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 15ms (View: 2, DB: 11) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#edit (for 66.30.9.143 at 2009-03-05 11:29:22) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2/edit]
+
+
+Processing BooksController#update (for 66.30.9.143 at 2009-03-05 11:29:42) [PUT]
+  Parameters: {"picture_file"=>#<File:/tmp/CGI28797-9>, "commit"=>"update", "authenticity_token"=>"624e7a971570039dcc310b8bb83ef993f49c0cd0", "id"=>"2", "book"=>{"imprint"=>"Weimar, 1795", "price"=>"2950", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:87:in `update'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-05 11:30:18) [GET]
+  Parameters: {"id"=>"2"}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:20:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#update (for 66.30.9.143 at 2009-03-05 11:31:51) [PUT]
+  Parameters: {"picture_file"=>#<File:/tmp/CGI28797-19>, "commit"=>"update", "authenticity_token"=>"624e7a971570039dcc310b8bb83ef993f49c0cd0", "id"=>"2", "book"=>{"imprint"=>"Weimar, 1795", "price"=>"2950", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:87:in `update'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#edit (for 66.30.9.143 at 2009-03-05 11:53:47) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2/edit]
+
+
+Processing BooksController#update (for 66.30.9.143 at 2009-03-05 11:54:00) [PUT]
+  Parameters: {"picture_file"=>#<File:/tmp/CGI2197-9>, "commit"=>"update", "authenticity_token"=>"624e7a971570039dcc310b8bb83ef993f49c0cd0", "id"=>"2", "book"=>{"imprint"=>"Weimar, 1795", "price"=>"2950", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:87:in `update'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 11:54:12) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 6ms (View: 4, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-05 11:54:17) [GET]
+  Parameters: {"id"=>"2"}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:20:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)

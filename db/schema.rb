@@ -9,20 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20081227195706) do
-
-  create_table "books", :force => true do |t|
-    t.string   "author"
-    t.string   "title"
-    t.string   "imprint"
-    t.date     "print_date"
-    t.string   "description"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.string   "subject"
-    t.integer  "price"
-    t.string   "heading"
-  end
+ActiveRecord::Schema.define(:version => 20081026154421) do
 
   create_table "lists", :force => true do |t|
     t.string   "name"
@@ -39,19 +26,6 @@ ActiveRecord::Schema.define(:version => 20081227195706) do
     t.integer  "size"
     t.integer  "width"
     t.integer  "height"
-    t.string   "thumbnail"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "pictures", :force => true do |t|
-    t.integer  "book_id"
-    t.integer  "parent_id"
-    t.integer  "size"
-    t.integer  "width"
-    t.integer  "height"
-    t.string   "content_type"
-    t.string   "filename"
     t.string   "thumbnail"
     t.datetime "created_at"
     t.datetime "updated_at"

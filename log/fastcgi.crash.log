@@ -63,3 +63,26 @@
 [29/Nov/2008:19:10:34 :: 21421] asked to stop immediately
 [29/Nov/2008:19:10:34 :: 21421] stopping after explicit exit
 [29/Nov/2008:19:10:56 :: 24410] starting
+[03/Mar/2009:18:25:48 :: 18868] starting
+[03/Mar/2009:18:25:48 :: 18868] stopping gracefully
+[03/Mar/2009:18:26:16 :: 18928] starting
+[03/Mar/2009:18:26:16 :: 18928] stopping gracefully
+[03/Mar/2009:18:29:47 :: 19626] starting
+[03/Mar/2009:18:29:47 :: 19626] stopping gracefully
+[03/Mar/2009:18:30:26 :: 19810] starting
+[03/Mar/2009:18:30:26 :: 19810] stopping gracefully
+[03/Mar/2009:18:31:28 :: 19928] starting
+[03/Mar/2009:19:23:57 :: 19928] asked to stop immediately
+[03/Mar/2009:19:23:57 :: 19928] stopping after explicit exit
+[03/Mar/2009:19:24:06 :: 368] starting
+[03/Mar/2009:19:36:02 :: 368] asked to stop immediately
+[03/Mar/2009:19:36:02 :: 368] stopping after explicit exit
+[03/Mar/2009:19:36:09 :: 2416] starting
+[03/Mar/2009:20:44:23 :: 2416] asked to stop immediately
+[03/Mar/2009:20:44:23 :: 2416] stopping after explicit exit
+[03/Mar/2009:20:44:36 :: 14459] starting
+[04/Mar/2009:10:02:36 :: 3852] starting
+[05/Mar/2009:11:29:07 :: 28797] starting
+[05/Mar/2009:11:33:14 :: 28797] asked to stop immediately
+[05/Mar/2009:11:33:14 :: 28797] stopping after explicit exit
+[05/Mar/2009:11:53:47 :: 2197] starting

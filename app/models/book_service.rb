@@ -24,7 +24,11 @@ class BookService
   end
   
   def valid?
-    @book.valid? && @picture.valid?
+    if @picture
+    	@book.valid? && @picture.valid?
+    else
+    	@book.valid?
+    end 
   end  
   
   def update_attributes(book_attributes, picture_file)

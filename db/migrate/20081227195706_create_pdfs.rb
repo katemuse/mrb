@@ -16,6 +16,6 @@ class CreatePdfs < ActiveRecord::Migration
   end
 
   def self.down
-    drop_table :lists
+    drop_table :pdfs
   end
 end

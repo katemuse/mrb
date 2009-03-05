@@ -19757,3 +19757,776 @@ The error occurred while evaluating nil.name) on line #23 of lists/index.html.er
     script/server:3
 
 Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing BooksController#index (for 127.0.0.1 at 2009-03-03 12:32:10) [GET]
+  [4;36;1mBook Load (3.6ms)[0m   [0;1mSELECT * FROM "books" ORDER BY title asc[0m
+Rendering template within layouts/books
+Rendering books/index
+Rendered books/_header_left (1.8ms)
+Rendered books/_contact_info (0.3ms)
+Rendered books/__right_col (13.9ms)
+Completed in 143ms (View: 108, DB: 4) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#login (for 127.0.0.1 at 2009-03-03 12:32:16) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0ms (View: 0, DB: 0) | 401 Unauthorized [http://localhost/login]
+
+
+Processing BooksController#login (for 127.0.0.1 at 2009-03-03 12:32:18) [GET]
+Redirected to actionindex
+Completed in 2ms (DB: 0) | 302 Found [http://localhost/login]
+
+
+Processing BooksController#index (for 127.0.0.1 at 2009-03-03 12:32:18) [GET]
+  [4;35;1mBook Load (1.4ms)[0m   [0mSELECT * FROM "books" ORDER BY title asc[0m
+Rendering template within layouts/books
+Rendering books/index
+Rendered books/_header_left (0.6ms)
+Rendered books/_contact_info (0.1ms)
+Rendered books/__right_col (1.3ms)
+Completed in 22ms (View: 15, DB: 1) | 200 OK [http://localhost/books]
+
+
+Processing BooksController#edit (for 127.0.0.1 at 2009-03-03 12:32:19) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mBook Load (0.4ms)[0m   [0;1mSELECT * FROM "books" WHERE ("books"."id" = 1) [0m
+Rendering template within layouts/books
+Rendering books/edit
+Rendered books/_header_left (0.9ms)
+Rendered books/_form (3.8ms)
+Completed in 53ms (View: 46, DB: 0) | 200 OK [http://localhost/books/1/edit]
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20081026015348)
+Migrating to AddBooks (20081026045811)
+Migrating to AddBookSubject (20081026170036)
+Migrating to ChangePriceType (20081207134652)
+Migrating to CreatePictures (20081227001610)
+Migrating to CreateLists (20081227184434)
+Migrating to CreatePdfs (20081227195706)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("lists")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("pdfs")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("pictures")[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePdfs (20081227195706)
+  [4;36;1mSQL (39.8ms)[0m   [0;1mDROP TABLE "lists"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20081227195706'[0m
+Migrating to CreateLists (20081227184434)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: lists: DROP TABLE "lists"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20081026015348)
+Migrating to AddBooks (20081026045811)
+Migrating to AddBookSubject (20081026170036)
+Migrating to ChangePriceType (20081207134652)
+Migrating to CreatePictures (20081227001610)
+Migrating to CreateLists (20081227184434)
+Migrating to CreatePdfs (20081227195706)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "pdfs" already exists: CREATE TABLE "pdfs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "list_id" integer NOT NULL, "parent_id" integer, "content_type" varchar(255), "filename" varchar(255), "size" integer, "width" integer, "height" integer, "thumbnail" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateLists (20081227184434)
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSQLite3::SQLException: no such table: lists: DROP TABLE "lists"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateLists (20081227184434)
+  [4;36;1mSQL (13.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081227184434'[0m
+Migrating to CreatePictures (20081227001610)
+  [4;35;1mSQL (1.5ms)[0m   [0mDROP TABLE "pictures"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081227001610'[0m
+Migrating to ChangePriceType (20081207134652)
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to ChangePriceType (20081207134652)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (16.6ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" integer, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mBook Update (1.1ms)[0m   [0mUPDATE "books" SET price = price / 100.0 [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081207134652'[0m
+Migrating to AddBookSubject (20081026170036)
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "price" decimal, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20081026170036'[0m
+Migrating to AddBooks (20081026045811)
+  [4;36;1mSQL (0.9ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081026045811'[0m
+Migrating to CreateBooks (20081026015348)
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081026015348'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("pdfs")[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20081026015348)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (3.6ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081026015348')[0m
+Migrating to AddBooks (20081026045811)
+  [4;35;1mBook Create (0.3ms)[0m   [0mINSERT INTO "books" ("print_date", "updated_at", "title", "imprint", "author", "description", "created_at") VALUES(NULL, '2009-03-05 16:37:29', 'Botanik für Frauenzimmer und Pflanzenliebhaber, welche keine Gelehrten sind', '1795, Weimar', 'August Johann Georg Karl, BATSCH', 'FIRST EDITION of a popular guide to botany intended for women and other amateur plant lovers. The volume contains a lucid exposition of the fundaments of botanical classification, with an overview of the different plant parts, reasons for plant diversity, and human uses of plants, a survey of plant types, categorized by leaves, woods, flowers and fruits, and a guide to Linnaeus'' classification system. The purview is global and chapters include brief discussions of arcana such as amber and petrified wood, and of the possibility and causes of evolution (Verwandlung) in plants. The finely hand-colored engravings, after Batsch''s own drawings, depict a total of 101 plant parts. 
+
+
+
+ Professor at Jena and founder of the botanical garden there, Batsch wrote in his short life a number of works on botany and mineralogy, most for laymen, his most significant scientific achievements being the discovery of over 200 new species of mushrooms and his masterful classification of fungi along Linnaean lines, in the Elenchus fungorum (1783-89). Patronized by Goethe, who obtained for him in 1794 the directorship of the new botanical institute in Jena, Batsch in turn advised the polymath on his own botanical research: Goethe notably submitted to him several drafts of the Versuch die Metamorphose der Pflanzen zu erklären (1790). In the preface to the 1831 edition of the Metamorphosen, Goethe wrote that Batsch "went his own way, and was not influenced by the idea [Goethe''s plant theory], even though he concerned himself mainly with the identification of plant families" ("Dr. Batsch… ging auf seine eigne Weise darauf hin… Doch scheint die Idee auf der Gang seiner Studien keinen Einfluss gehabt zu haben, ob er sich schon hauptsächlich beschäftigte das Pflanzenreich in Familien zu sondern und zu ordnen", cited by Schmidt, p. 244). Nonetheless, the headings to Batsch''s Chapter 66, 67 and 68 tacitly evoke Goethe''s theory of plant structure, which held the leaf to be the archetypal form of all plant parts: "Alles, was die Pflanzen zeigen, sind Stämme, Zweige, und vorzüglich Blattformen"; "Stufenfolge der Blattformen"; "Besondre Näherung und Entfernung der Blattformen". 
+
+
+
+ Batsch addresses his readers without condescension. A Rousseauist view of botany, friendly to the amateur plant-lover, was typical of the German Romantics: "To Goethe and the Naturphilosophen… this understanding [of plants'' relations] depended as much on a scientist''s personal sympathy with nature as on his systematic study of it. Importantly, this specifically German understanding of nature included `ladies, artists, and botanic amateurs'' in the scientific community" (Koerner, p. 472). The mention of women on the title may have also reflected a publishing strategy. If so, it worked, as the "Landes-Industrie-Comptoir" reissued editions in 1798, 1799 (in French), 1818, and 1834. Danish and Swedish translations were published in 1801 and 1810. 
+
+
+
+ Occasional light foxing to text, otherwise an excellent, uncut copy, the plates bright and fresh. 
+
+
+ OCLC lists four copies in the US, none west of the Mississippi. Pritzel 484; Nissen, p. 207; Rehder, Bradley Bibliography: A Guide to the Literature of the Woody Plants of the World (1911), I:93; Günther Schmid, Goethe und die Naturwissenschaften: Eine Bibliographie, no. 1595. Cf. Lisbet Koerner, "Goethe''s Botany: Lessons of a Feminine Science," Isis, Vol. 84, No. 3 (Sept. 1993): 470-495.
+ ', '2009-03-05 16:37:29')[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO "books" ("print_date", "updated_at", "title", "imprint", "author", "description", "created_at") VALUES(NULL, '2009-03-05 16:37:29', 'Paedologia', '1795, Weimar', 'MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.', 'MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529. 
+
+ 
+
+ 8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes. 
+
+ 
+
+ Rare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America. 
+
+ 
+
+ VD-16 S 2155 & H 1167. ', '2009-03-05 16:37:29')[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20081026045811')[0m
+Migrating to AddBookSubject (20081026170036)
+  [4;36;1mSQL (1.1ms)[0m   [0;1mALTER TABLE "books" ADD "subject" varchar(255)[0m
+  [4;35;1mSQL (19.7ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mALTER TABLE "books" ADD "price" decimal[0m
+  [4;35;1mSQL (2.8ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mALTER TABLE "books" ADD "heading" varchar(255)[0m
+  [4;35;1mSQL (2.8ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081026170036')[0m
+Migrating to ChangePriceType (20081207134652)
+  [4;35;1mBook Update (1.3ms)[0m   [0mUPDATE "books" SET price = price * 100 [0m
+  [4;36;1mSQL (7.0ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("books")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "books"[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" integer, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("altered_books")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDROP TABLE "altered_books"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081207134652')[0m
+Migrating to CreatePictures (20081227001610)
+  [4;35;1mSQL (1.2ms)[0m   [0mCREATE TABLE "pictures" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "parent_id" integer, "size" integer, "width" integer, "height" integer, "content_type" varchar(255), "filename" varchar(255), "thumbnail" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081227001610')[0m
+Migrating to CreateLists (20081227184434)
+  [4;35;1mSQL (1.1ms)[0m   [0mCREATE TABLE "lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "category" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081227184434')[0m
+Migrating to CreatePdfs (20081227195706)
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "pdfs" already exists: CREATE TABLE "pdfs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "list_id" integer NOT NULL, "parent_id" integer, "content_type" varchar(255), "filename" varchar(255), "size" integer, "width" integer, "height" integer, "thumbnail" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateLists (20081227184434)
+  [4;36;1mSQL (2.5ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081227184434'[0m
+Migrating to CreatePictures (20081227001610)
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE "pictures"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081227001610'[0m
+Migrating to ChangePriceType (20081207134652)
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" integer, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("books")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "books"[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("altered_books")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDROP TABLE "altered_books"[0m
+  [4;36;1mBook Update (1.3ms)[0m   [0;1mUPDATE "books" SET price = price / 100.0 [0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20081207134652'[0m
+Migrating to AddBookSubject (20081026170036)
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("books")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "books"[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "price" decimal, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("altered_books")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDROP TABLE "altered_books"[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("books")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "books"[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("altered_books")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDROP TABLE "altered_books"[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("books")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "books"[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("altered_books")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDROP TABLE "altered_books"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081026170036'[0m
+Migrating to AddBooks (20081026045811)
+  [4;35;1mSQL (0.9ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20081026045811'[0m
+Migrating to CreateBooks (20081026015348)
+  [4;36;1mSQL (1.1ms)[0m   [0;1mDROP TABLE "books"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20081026015348'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("lists")[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("pdfs")[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20081026015348)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (3.2ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081026015348')[0m
+Migrating to AddBooks (20081026045811)
+  [4;35;1mBook Create (0.3ms)[0m   [0mINSERT INTO "books" ("print_date", "updated_at", "title", "imprint", "author", "description", "created_at") VALUES(NULL, '2009-03-05 16:38:02', 'Botanik für Frauenzimmer und Pflanzenliebhaber, welche keine Gelehrten sind', '1795, Weimar', 'August Johann Georg Karl, BATSCH', 'FIRST EDITION of a popular guide to botany intended for women and other amateur plant lovers. The volume contains a lucid exposition of the fundaments of botanical classification, with an overview of the different plant parts, reasons for plant diversity, and human uses of plants, a survey of plant types, categorized by leaves, woods, flowers and fruits, and a guide to Linnaeus'' classification system. The purview is global and chapters include brief discussions of arcana such as amber and petrified wood, and of the possibility and causes of evolution (Verwandlung) in plants. The finely hand-colored engravings, after Batsch''s own drawings, depict a total of 101 plant parts. 
+
+
+
+ Professor at Jena and founder of the botanical garden there, Batsch wrote in his short life a number of works on botany and mineralogy, most for laymen, his most significant scientific achievements being the discovery of over 200 new species of mushrooms and his masterful classification of fungi along Linnaean lines, in the Elenchus fungorum (1783-89). Patronized by Goethe, who obtained for him in 1794 the directorship of the new botanical institute in Jena, Batsch in turn advised the polymath on his own botanical research: Goethe notably submitted to him several drafts of the Versuch die Metamorphose der Pflanzen zu erklären (1790). In the preface to the 1831 edition of the Metamorphosen, Goethe wrote that Batsch "went his own way, and was not influenced by the idea [Goethe''s plant theory], even though he concerned himself mainly with the identification of plant families" ("Dr. Batsch… ging auf seine eigne Weise darauf hin… Doch scheint die Idee auf der Gang seiner Studien keinen Einfluss gehabt zu haben, ob er sich schon hauptsächlich beschäftigte das Pflanzenreich in Familien zu sondern und zu ordnen", cited by Schmidt, p. 244). Nonetheless, the headings to Batsch''s Chapter 66, 67 and 68 tacitly evoke Goethe''s theory of plant structure, which held the leaf to be the archetypal form of all plant parts: "Alles, was die Pflanzen zeigen, sind Stämme, Zweige, und vorzüglich Blattformen"; "Stufenfolge der Blattformen"; "Besondre Näherung und Entfernung der Blattformen". 
+
+
+
+ Batsch addresses his readers without condescension. A Rousseauist view of botany, friendly to the amateur plant-lover, was typical of the German Romantics: "To Goethe and the Naturphilosophen… this understanding [of plants'' relations] depended as much on a scientist''s personal sympathy with nature as on his systematic study of it. Importantly, this specifically German understanding of nature included `ladies, artists, and botanic amateurs'' in the scientific community" (Koerner, p. 472). The mention of women on the title may have also reflected a publishing strategy. If so, it worked, as the "Landes-Industrie-Comptoir" reissued editions in 1798, 1799 (in French), 1818, and 1834. Danish and Swedish translations were published in 1801 and 1810. 
+
+
+
+ Occasional light foxing to text, otherwise an excellent, uncut copy, the plates bright and fresh. 
+
+
+ OCLC lists four copies in the US, none west of the Mississippi. Pritzel 484; Nissen, p. 207; Rehder, Bradley Bibliography: A Guide to the Literature of the Woody Plants of the World (1911), I:93; Günther Schmid, Goethe und die Naturwissenschaften: Eine Bibliographie, no. 1595. Cf. Lisbet Koerner, "Goethe''s Botany: Lessons of a Feminine Science," Isis, Vol. 84, No. 3 (Sept. 1993): 470-495.
+ ', '2009-03-05 16:38:02')[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO "books" ("print_date", "updated_at", "title", "imprint", "author", "description", "created_at") VALUES(NULL, '2009-03-05 16:38:02', 'Paedologia', '1795, Weimar', 'MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.', 'MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529. 
+
+ 
+
+ 8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes. 
+
+ 
+
+ Rare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America. 
+
+ 
+
+ VD-16 S 2155 & H 1167. ', '2009-03-05 16:38:02')[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20081026045811')[0m
+Migrating to AddBookSubject (20081026170036)
+  [4;36;1mSQL (1.1ms)[0m   [0;1mALTER TABLE "books" ADD "subject" varchar(255)[0m
+  [4;35;1mSQL (17.9ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mALTER TABLE "books" ADD "price" decimal[0m
+  [4;35;1mSQL (2.9ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mALTER TABLE "books" ADD "heading" varchar(255)[0m
+  [4;35;1mSQL (17.7ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081026170036')[0m
+Migrating to ChangePriceType (20081207134652)
+  [4;35;1mBook Update (1.4ms)[0m   [0mUPDATE "books" SET price = price * 100 [0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("books")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "books"[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" integer, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("altered_books")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDROP TABLE "altered_books"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081207134652')[0m
+Migrating to CreatePictures (20081227001610)
+  [4;35;1mSQL (1.1ms)[0m   [0mCREATE TABLE "pictures" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "parent_id" integer, "size" integer, "width" integer, "height" integer, "content_type" varchar(255), "filename" varchar(255), "thumbnail" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081227001610')[0m
+Migrating to CreateLists (20081227184434)
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "lists" already exists: CREATE TABLE "lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "category" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePictures (20081227001610)
+  [4;36;1mSQL (7.2ms)[0m   [0;1mDROP TABLE "pictures"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20081227001610'[0m
+Migrating to ChangePriceType (20081207134652)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (8.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" integer, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mBook Update (1.2ms)[0m   [0mUPDATE "books" SET price = price / 100.0 [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081207134652'[0m
+Migrating to AddBookSubject (20081026170036)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "price" decimal, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20081026170036'[0m
+Migrating to AddBooks (20081026045811)
+  [4;36;1mSQL (39.9ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081026045811'[0m
+Migrating to CreateBooks (20081026015348)
+  [4;35;1mSQL (1.7ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081026015348'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("lists")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("pdfs")[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20081026015348)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (12.5ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081026015348')[0m
+Migrating to AddBooks (20081026045811)
+  [4;35;1mBook Create (0.3ms)[0m   [0mINSERT INTO "books" ("print_date", "updated_at", "title", "imprint", "author", "description", "created_at") VALUES(NULL, '2009-03-05 16:38:23', 'Botanik für Frauenzimmer und Pflanzenliebhaber, welche keine Gelehrten sind', '1795, Weimar', 'August Johann Georg Karl, BATSCH', 'FIRST EDITION of a popular guide to botany intended for women and other amateur plant lovers. The volume contains a lucid exposition of the fundaments of botanical classification, with an overview of the different plant parts, reasons for plant diversity, and human uses of plants, a survey of plant types, categorized by leaves, woods, flowers and fruits, and a guide to Linnaeus'' classification system. The purview is global and chapters include brief discussions of arcana such as amber and petrified wood, and of the possibility and causes of evolution (Verwandlung) in plants. The finely hand-colored engravings, after Batsch''s own drawings, depict a total of 101 plant parts. 
+
+
+
+ Professor at Jena and founder of the botanical garden there, Batsch wrote in his short life a number of works on botany and mineralogy, most for laymen, his most significant scientific achievements being the discovery of over 200 new species of mushrooms and his masterful classification of fungi along Linnaean lines, in the Elenchus fungorum (1783-89). Patronized by Goethe, who obtained for him in 1794 the directorship of the new botanical institute in Jena, Batsch in turn advised the polymath on his own botanical research: Goethe notably submitted to him several drafts of the Versuch die Metamorphose der Pflanzen zu erklären (1790). In the preface to the 1831 edition of the Metamorphosen, Goethe wrote that Batsch "went his own way, and was not influenced by the idea [Goethe''s plant theory], even though he concerned himself mainly with the identification of plant families" ("Dr. Batsch… ging auf seine eigne Weise darauf hin… Doch scheint die Idee auf der Gang seiner Studien keinen Einfluss gehabt zu haben, ob er sich schon hauptsächlich beschäftigte das Pflanzenreich in Familien zu sondern und zu ordnen", cited by Schmidt, p. 244). Nonetheless, the headings to Batsch''s Chapter 66, 67 and 68 tacitly evoke Goethe''s theory of plant structure, which held the leaf to be the archetypal form of all plant parts: "Alles, was die Pflanzen zeigen, sind Stämme, Zweige, und vorzüglich Blattformen"; "Stufenfolge der Blattformen"; "Besondre Näherung und Entfernung der Blattformen". 
+
+
+
+ Batsch addresses his readers without condescension. A Rousseauist view of botany, friendly to the amateur plant-lover, was typical of the German Romantics: "To Goethe and the Naturphilosophen… this understanding [of plants'' relations] depended as much on a scientist''s personal sympathy with nature as on his systematic study of it. Importantly, this specifically German understanding of nature included `ladies, artists, and botanic amateurs'' in the scientific community" (Koerner, p. 472). The mention of women on the title may have also reflected a publishing strategy. If so, it worked, as the "Landes-Industrie-Comptoir" reissued editions in 1798, 1799 (in French), 1818, and 1834. Danish and Swedish translations were published in 1801 and 1810. 
+
+
+
+ Occasional light foxing to text, otherwise an excellent, uncut copy, the plates bright and fresh. 
+
+
+ OCLC lists four copies in the US, none west of the Mississippi. Pritzel 484; Nissen, p. 207; Rehder, Bradley Bibliography: A Guide to the Literature of the Woody Plants of the World (1911), I:93; Günther Schmid, Goethe und die Naturwissenschaften: Eine Bibliographie, no. 1595. Cf. Lisbet Koerner, "Goethe''s Botany: Lessons of a Feminine Science," Isis, Vol. 84, No. 3 (Sept. 1993): 470-495.
+ ', '2009-03-05 16:38:23')[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO "books" ("print_date", "updated_at", "title", "imprint", "author", "description", "created_at") VALUES(NULL, '2009-03-05 16:38:23', 'Paedologia', '1795, Weimar', 'MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.', 'MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529. 
+
+ 
+
+ 8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes. 
+
+ 
+
+ Rare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America. 
+
+ 
+
+ VD-16 S 2155 & H 1167. ', '2009-03-05 16:38:23')[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20081026045811')[0m
+Migrating to AddBookSubject (20081026170036)
+  [4;36;1mSQL (1.4ms)[0m   [0;1mALTER TABLE "books" ADD "subject" varchar(255)[0m
+  [4;35;1mSQL (3.9ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mALTER TABLE "books" ADD "price" decimal[0m
+  [4;35;1mSQL (25.4ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mALTER TABLE "books" ADD "heading" varchar(255)[0m
+  [4;35;1mSQL (21.5ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081026170036')[0m
+Migrating to ChangePriceType (20081207134652)
+  [4;35;1mBook Update (1.6ms)[0m   [0mUPDATE "books" SET price = price * 100 [0m
+  [4;36;1mSQL (16.7ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("books")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "books"[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" integer, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("altered_books")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDROP TABLE "altered_books"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081207134652')[0m
+Migrating to CreatePictures (20081227001610)
+  [4;35;1mSQL (1.1ms)[0m   [0mCREATE TABLE "pictures" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "parent_id" integer, "size" integer, "width" integer, "height" integer, "content_type" varchar(255), "filename" varchar(255), "thumbnail" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081227001610')[0m
+Migrating to CreateLists (20081227184434)
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "lists" already exists: CREATE TABLE "lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "category" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePictures (20081227001610)
+  [4;36;1mSQL (3.3ms)[0m   [0;1mDROP TABLE "pictures"[0m
+  [4;35;1mSQL (1.1ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20081227001610'[0m
+Migrating to ChangePriceType (20081207134652)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (4.8ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" integer, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mBook Update (1.1ms)[0m   [0mUPDATE "books" SET price = price / 100.0 [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081207134652'[0m
+Migrating to AddBookSubject (20081026170036)
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "price" decimal, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20081026170036'[0m
+Migrating to AddBooks (20081026045811)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081026045811'[0m
+Migrating to CreateBooks (20081026015348)
+  [4;35;1mSQL (1.1ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081026015348'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("lists")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("pdfs")[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20081026015348)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (4.1ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081026015348')[0m
+Migrating to AddBooks (20081026045811)
+  [4;35;1mBook Create (0.3ms)[0m   [0mINSERT INTO "books" ("print_date", "updated_at", "title", "imprint", "author", "description", "created_at") VALUES(NULL, '2009-03-05 16:40:28', 'Botanik für Frauenzimmer und Pflanzenliebhaber, welche keine Gelehrten sind', '1795, Weimar', 'August Johann Georg Karl, BATSCH', 'FIRST EDITION of a popular guide to botany intended for women and other amateur plant lovers. The volume contains a lucid exposition of the fundaments of botanical classification, with an overview of the different plant parts, reasons for plant diversity, and human uses of plants, a survey of plant types, categorized by leaves, woods, flowers and fruits, and a guide to Linnaeus'' classification system. The purview is global and chapters include brief discussions of arcana such as amber and petrified wood, and of the possibility and causes of evolution (Verwandlung) in plants. The finely hand-colored engravings, after Batsch''s own drawings, depict a total of 101 plant parts. 
+
+
+
+ Professor at Jena and founder of the botanical garden there, Batsch wrote in his short life a number of works on botany and mineralogy, most for laymen, his most significant scientific achievements being the discovery of over 200 new species of mushrooms and his masterful classification of fungi along Linnaean lines, in the Elenchus fungorum (1783-89). Patronized by Goethe, who obtained for him in 1794 the directorship of the new botanical institute in Jena, Batsch in turn advised the polymath on his own botanical research: Goethe notably submitted to him several drafts of the Versuch die Metamorphose der Pflanzen zu erklären (1790). In the preface to the 1831 edition of the Metamorphosen, Goethe wrote that Batsch "went his own way, and was not influenced by the idea [Goethe''s plant theory], even though he concerned himself mainly with the identification of plant families" ("Dr. Batsch… ging auf seine eigne Weise darauf hin… Doch scheint die Idee auf der Gang seiner Studien keinen Einfluss gehabt zu haben, ob er sich schon hauptsächlich beschäftigte das Pflanzenreich in Familien zu sondern und zu ordnen", cited by Schmidt, p. 244). Nonetheless, the headings to Batsch''s Chapter 66, 67 and 68 tacitly evoke Goethe''s theory of plant structure, which held the leaf to be the archetypal form of all plant parts: "Alles, was die Pflanzen zeigen, sind Stämme, Zweige, und vorzüglich Blattformen"; "Stufenfolge der Blattformen"; "Besondre Näherung und Entfernung der Blattformen". 
+
+
+
+ Batsch addresses his readers without condescension. A Rousseauist view of botany, friendly to the amateur plant-lover, was typical of the German Romantics: "To Goethe and the Naturphilosophen… this understanding [of plants'' relations] depended as much on a scientist''s personal sympathy with nature as on his systematic study of it. Importantly, this specifically German understanding of nature included `ladies, artists, and botanic amateurs'' in the scientific community" (Koerner, p. 472). The mention of women on the title may have also reflected a publishing strategy. If so, it worked, as the "Landes-Industrie-Comptoir" reissued editions in 1798, 1799 (in French), 1818, and 1834. Danish and Swedish translations were published in 1801 and 1810. 
+
+
+
+ Occasional light foxing to text, otherwise an excellent, uncut copy, the plates bright and fresh. 
+
+
+ OCLC lists four copies in the US, none west of the Mississippi. Pritzel 484; Nissen, p. 207; Rehder, Bradley Bibliography: A Guide to the Literature of the Woody Plants of the World (1911), I:93; Günther Schmid, Goethe und die Naturwissenschaften: Eine Bibliographie, no. 1595. Cf. Lisbet Koerner, "Goethe''s Botany: Lessons of a Feminine Science," Isis, Vol. 84, No. 3 (Sept. 1993): 470-495.
+ ', '2009-03-05 16:40:28')[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO "books" ("print_date", "updated_at", "title", "imprint", "author", "description", "created_at") VALUES(NULL, '2009-03-05 16:40:28', 'Paedologia', '1795, Weimar', 'MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.', 'MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529. 
+
+ 
+
+ 8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes. 
+
+ 
+
+ Rare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America. 
+
+ 
+
+ VD-16 S 2155 & H 1167. ', '2009-03-05 16:40:28')[0m
+  [4;35;1mSQL (0.9ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20081026045811')[0m
+Migrating to AddBookSubject (20081026170036)
+  [4;36;1mSQL (1.1ms)[0m   [0;1mALTER TABLE "books" ADD "subject" varchar(255)[0m
+  [4;35;1mSQL (4.0ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.3ms)[0m   [0;1mALTER TABLE "books" ADD "price" decimal[0m
+  [4;35;1mSQL (3.0ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (5.1ms)[0m   [0;1mALTER TABLE "books" ADD "heading" varchar(255)[0m
+  [4;35;1mSQL (17.8ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081026170036')[0m
+Migrating to ChangePriceType (20081207134652)
+  [4;35;1mBook Update (1.3ms)[0m   [0mUPDATE "books" SET price = price * 100 [0m
+  [4;36;1mSQL (12.2ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("books")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "books"[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" integer, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("altered_books")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDROP TABLE "altered_books"[0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081207134652')[0m
+Migrating to CreatePictures (20081227001610)
+  [4;35;1mSQL (1.2ms)[0m   [0mCREATE TABLE "pictures" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "parent_id" integer, "size" integer, "width" integer, "height" integer, "content_type" varchar(255), "filename" varchar(255), "thumbnail" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081227001610')[0m
+Migrating to CreateLists (20081227184434)
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "lists" already exists: CREATE TABLE "lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "category" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreatePictures (20081227001610)
+  [4;36;1mSQL (5.0ms)[0m   [0;1mDROP TABLE "pictures"[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20081227001610'[0m
+Migrating to ChangePriceType (20081207134652)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" integer, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mBook Update (1.1ms)[0m   [0mUPDATE "books" SET price = price / 100.0 [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081207134652'[0m
+Migrating to AddBookSubject (20081026170036)
+  [4;35;1mSQL (0.4ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "price" decimal, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("books")[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("altered_books")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mDROP TABLE "altered_books"[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mDELETE FROM schema_migrations WHERE version = '20081026170036'[0m
+Migrating to AddBooks (20081026045811)
+  [4;36;1mSQL (0.8ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081026045811'[0m
+Migrating to CreateBooks (20081026015348)
+  [4;35;1mSQL (1.0ms)[0m   [0mDROP TABLE "books"[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mDELETE FROM schema_migrations WHERE version = '20081026015348'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("lists")[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("pdfs")[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20081026015348)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (3.7ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081026015348')[0m
+Migrating to AddBooks (20081026045811)
+  [4;35;1mBook Create (0.4ms)[0m   [0mINSERT INTO "books" ("print_date", "updated_at", "title", "imprint", "author", "description", "created_at") VALUES(NULL, '2009-03-05 16:41:02', 'Botanik für Frauenzimmer und Pflanzenliebhaber, welche keine Gelehrten sind', '1795, Weimar', 'August Johann Georg Karl, BATSCH', 'FIRST EDITION of a popular guide to botany intended for women and other amateur plant lovers. The volume contains a lucid exposition of the fundaments of botanical classification, with an overview of the different plant parts, reasons for plant diversity, and human uses of plants, a survey of plant types, categorized by leaves, woods, flowers and fruits, and a guide to Linnaeus'' classification system. The purview is global and chapters include brief discussions of arcana such as amber and petrified wood, and of the possibility and causes of evolution (Verwandlung) in plants. The finely hand-colored engravings, after Batsch''s own drawings, depict a total of 101 plant parts. 
+
+
+
+ Professor at Jena and founder of the botanical garden there, Batsch wrote in his short life a number of works on botany and mineralogy, most for laymen, his most significant scientific achievements being the discovery of over 200 new species of mushrooms and his masterful classification of fungi along Linnaean lines, in the Elenchus fungorum (1783-89). Patronized by Goethe, who obtained for him in 1794 the directorship of the new botanical institute in Jena, Batsch in turn advised the polymath on his own botanical research: Goethe notably submitted to him several drafts of the Versuch die Metamorphose der Pflanzen zu erklären (1790). In the preface to the 1831 edition of the Metamorphosen, Goethe wrote that Batsch "went his own way, and was not influenced by the idea [Goethe''s plant theory], even though he concerned himself mainly with the identification of plant families" ("Dr. Batsch… ging auf seine eigne Weise darauf hin… Doch scheint die Idee auf der Gang seiner Studien keinen Einfluss gehabt zu haben, ob er sich schon hauptsächlich beschäftigte das Pflanzenreich in Familien zu sondern und zu ordnen", cited by Schmidt, p. 244). Nonetheless, the headings to Batsch''s Chapter 66, 67 and 68 tacitly evoke Goethe''s theory of plant structure, which held the leaf to be the archetypal form of all plant parts: "Alles, was die Pflanzen zeigen, sind Stämme, Zweige, und vorzüglich Blattformen"; "Stufenfolge der Blattformen"; "Besondre Näherung und Entfernung der Blattformen". 
+
+
+
+ Batsch addresses his readers without condescension. A Rousseauist view of botany, friendly to the amateur plant-lover, was typical of the German Romantics: "To Goethe and the Naturphilosophen… this understanding [of plants'' relations] depended as much on a scientist''s personal sympathy with nature as on his systematic study of it. Importantly, this specifically German understanding of nature included `ladies, artists, and botanic amateurs'' in the scientific community" (Koerner, p. 472). The mention of women on the title may have also reflected a publishing strategy. If so, it worked, as the "Landes-Industrie-Comptoir" reissued editions in 1798, 1799 (in French), 1818, and 1834. Danish and Swedish translations were published in 1801 and 1810. 
+
+
+
+ Occasional light foxing to text, otherwise an excellent, uncut copy, the plates bright and fresh. 
+
+
+ OCLC lists four copies in the US, none west of the Mississippi. Pritzel 484; Nissen, p. 207; Rehder, Bradley Bibliography: A Guide to the Literature of the Woody Plants of the World (1911), I:93; Günther Schmid, Goethe und die Naturwissenschaften: Eine Bibliographie, no. 1595. Cf. Lisbet Koerner, "Goethe''s Botany: Lessons of a Feminine Science," Isis, Vol. 84, No. 3 (Sept. 1993): 470-495.
+ ', '2009-03-05 16:41:02')[0m
+  [4;36;1mBook Create (0.3ms)[0m   [0;1mINSERT INTO "books" ("print_date", "updated_at", "title", "imprint", "author", "description", "created_at") VALUES(NULL, '2009-03-05 16:41:02', 'Paedologia', '1795, Weimar', 'MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.', 'MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529. 
+
+ 
+
+ 8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes. 
+
+ 
+
+ Rare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America. 
+
+ 
+
+ VD-16 S 2155 & H 1167. ', '2009-03-05 16:41:02')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20081026045811')[0m
+Migrating to AddBookSubject (20081026170036)
+  [4;36;1mSQL (1.0ms)[0m   [0;1mALTER TABLE "books" ADD "subject" varchar(255)[0m
+  [4;35;1mSQL (16.5ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mALTER TABLE "books" ADD "price" decimal[0m
+  [4;35;1mSQL (2.9ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mALTER TABLE "books" ADD "heading" varchar(255)[0m
+  [4;35;1mSQL (2.9ms)[0m   [0mVACUUM[0m
+  [4;36;1mSQL (1.0ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081026170036')[0m
+Migrating to ChangePriceType (20081207134652)
+  [4;35;1mBook Update (1.1ms)[0m   [0mUPDATE "books" SET price = price * 100 [0m
+  [4;36;1mSQL (4.4ms)[0m   [0;1mCREATE TEMPORARY TABLE "altered_books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" decimal, "heading" varchar(255)) [0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("books")[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mDROP TABLE "books"[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mCREATE TABLE "books" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "author" varchar(255), "title" varchar(255), "imprint" varchar(255), "print_date" date, "description" varchar(255), "created_at" datetime, "updated_at" datetime, "subject" varchar(255), "price" integer, "heading" varchar(255)) [0m
+  [4;36;1mSQL (0.0ms)[0m   [0;1mPRAGMA index_list("altered_books")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mDROP TABLE "altered_books"[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081207134652')[0m
+Migrating to CreatePictures (20081227001610)
+  [4;35;1mSQL (1.0ms)[0m   [0mCREATE TABLE "pictures" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "book_id" integer, "parent_id" integer, "size" integer, "width" integer, "height" integer, "content_type" varchar(255), "filename" varchar(255), "thumbnail" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20081227001610')[0m
+Migrating to CreateLists (20081227184434)
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "lists" already exists: CREATE TABLE "lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "category" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20081026015348)
+Migrating to AddBooks (20081026045811)
+Migrating to AddBookSubject (20081026170036)
+Migrating to ChangePriceType (20081207134652)
+Migrating to CreatePictures (20081227001610)
+Migrating to CreateLists (20081227184434)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "lists" already exists: CREATE TABLE "lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "category" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.9ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20081026015348)
+Migrating to AddBooks (20081026045811)
+Migrating to AddBookSubject (20081026170036)
+Migrating to ChangePriceType (20081207134652)
+Migrating to CreatePictures (20081227001610)
+Migrating to CreateLists (20081227184434)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "lists" already exists: CREATE TABLE "lists" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "category" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateBooks (20081026015348)
+Migrating to AddBooks (20081026045811)
+Migrating to AddBookSubject (20081026170036)
+Migrating to ChangePriceType (20081207134652)
+Migrating to CreatePictures (20081227001610)
+Migrating to CreatePdfs (20081227195706)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSQLite3::SQLException: table "pdfs" already exists: CREATE TABLE "pdfs" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "list_id" integer NOT NULL, "parent_id" integer, "content_type" varchar(255), "filename" varchar(255), "size" integer, "width" integer, "height" integer, "thumbnail" varchar(255), "created_at" datetime, "updated_at" datetime) [0m

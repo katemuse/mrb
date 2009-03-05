@@ -20,19 +20,7 @@ class ListsController < ApplicationController
 
        end
      end
-      puts "***********************Fairs: #{@fairs}***********************"               
-      puts "***********************Catalogues: #{@catalogues}***********************"  
-     puts "***********************@catalogues[0]: #{@catalogues[0]}***********************" 
-     puts "***********************@catalogues[0][0]: #{@catalogues[0][0]}***********************"   
-    # @fairs  = List.find_all_by_category('Fairs', :include => :pdf)   
-    #     # puts "***********************Fairs: #{@fairs}***********************" 
-    #     # puts "***********************Fair 1: #{@fairs[1]}***********************"          
-    #     # puts "***********************PDF 1: #{@pdfs.Find[1]}***********************"          
-    #     @catalogues = List.find_all_by_category('Catalogues', :include => :pdf)    
-    #     # puts "***********************Catalogues: #{@catalogues}***********************"    
-    #    
-    #     @varia = List.find_all_by_category('Varia', :include => :pdf)
-    #     # puts "***********************Varia #{@varia}***********************"     
+        
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @lists }

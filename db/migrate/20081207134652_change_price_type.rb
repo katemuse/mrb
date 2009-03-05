@@ -5,7 +5,7 @@ class ChangePriceType < ActiveRecord::Migration
   end
 
   def self.down
-    change_column :products, :price, :decimal 
+    change_column :books, :price, :decimal 
     Book.update_all("price = price / 100.0")
   end
 end

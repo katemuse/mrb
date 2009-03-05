@@ -7,17 +7,17 @@
 
 <p class = "flash"><%= flash[:notice] %></p>
 <h2>Fairs</h2>
-<%# if @fairs[0].size > 0 %>  
+<% if @fairs[0] %>  
 <% for fair in @fairs %><!-- cycle through array of arrays each of which has a list and associated pdf  -->
  <p><%=link_to fair[1].name, "/public/pdf/#{fair[2].filename}", :type => 'application/pdf' %><% if @is_authenticated %> 
 <span class="admincontrols"><small><%= link_to 'edit', :action => 'edit', :id => fair[1]  %> |  
 	  <%= link_to 'delete', list, :confirm => 'Are you sure?', :method => :delete %>   </small></span>      
 <% end %>   </p>
 <% end %>  <p></p>
-<%# end %>
+<% end %>
 
 	<h2>Catalogues</h2>  
-<%# if @catalogues[0].size > 0  %>   
+<% if @catalogues[0] %>   
 
      <% for cat in @catalogues %>
  <p><%=link_to cat[1].name, "/public/pdf/#{cat[2].filename}", :type => 'application/pdf' %><% if @is_authenticated %> 
@@ -26,10 +26,10 @@
 	 <% end %>    </p>
 	<% end %> 
  		<p></p>
-<%# end %> 
+<% end %> 
 
 
-<%# if @varia[0].size > 0  %>      
+<% if @varia[0] %>      
 	<h2>Varia</h2>
 
 <% for var in @varia %>
@@ -38,7 +38,7 @@
 	  <%= link_to 'delete', list, :confirm => 'Are you sure?', :method => :delete %>   </small></span>      
 <% end %>  </p>  <% end %>
  <p></p> 
-<%# end %>
+<% end %>
 
 <%= link_to 'New list', new_list_path %>
 </div></div>
