@@ -7,14 +7,18 @@
 		<div id="menu" class="boxed">
 			<h2 class="heading"> &nbsp;</h2>
 			<ul>    
-			   <li> <%= link_to "home", { :controller => '/', :action => :index } %></li>
-			<li> <%= link_to "stock", { :controller => '/books', :action => :index } %></li> 
+			   <li> <%= link_to "home", welcome_path %></li>       <!-- { :controller => '/', :action => :index }   -->
+			<li> <%= link_to "stock", books_path %></li>   <!-- #{ :controller => '/books', :action => :index }  -->
 			 <!--li--> <!--= link_to "lists", { :controller => '/lists', :action => :index } %></li--> 
                 <% unless @is_authenticated %>	
-				<li> <%= link_to "log in", login_path %></li>  
+				<li> <%= link_to "log in", login_path %></li> 
+  
 				<% end %>  			
 
-
+				<% if @is_authenticated %>	
+				<li> <%= link_to "log out", login_path %></li> 
+  
+				<% end %> 
 				<!--<li><a href="#" title="">lists</a></li>--> 
 				<!--<li><a href="#" title="">contact</a></li>-->
 			</ul>   </div>

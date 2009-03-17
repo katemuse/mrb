@@ -9,7 +9,20 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20081026154421) do
+ActiveRecord::Schema.define(:version => 20090314044102) do
+
+  create_table "books", :force => true do |t|
+    t.string   "author"
+    t.string   "title"
+    t.string   "imprint"
+    t.date     "print_date"
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "subject"
+    t.integer  "price"
+    t.string   "heading"
+  end
 
   create_table "lists", :force => true do |t|
     t.string   "name"
@@ -19,7 +32,7 @@ ActiveRecord::Schema.define(:version => 20081026154421) do
   end
 
   create_table "pdfs", :force => true do |t|
-    t.integer  "list_id"
+    t.integer  "list_id",      :null => false
     t.integer  "parent_id"
     t.string   "content_type"
     t.string   "filename"
@@ -27,6 +40,27 @@ ActiveRecord::Schema.define(:version => 20081026154421) do
     t.integer  "width"
     t.integer  "height"
     t.string   "thumbnail"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "pictures", :force => true do |t|
+    t.integer  "book_id"
+    t.integer  "parent_id"
+    t.integer  "size"
+    t.integer  "width"
+    t.integer  "height"
+    t.string   "content_type"
+    t.string   "filename"
+    t.string   "thumbnail"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "username"
+    t.string   "password_salt"
+    t.string   "password_hash"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

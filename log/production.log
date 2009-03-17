@@ -4436,3 +4436,1099 @@ ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: 
     dispatch.fcgi:24
 
 Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-05 12:04:21) [GET]
+  Parameters: {"id"=>"2"}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:20:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 12:04:22) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-05 12:07:47) [GET]
+  Parameters: {"id"=>"2"}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:20:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 12:12:11) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 9ms (View: 7, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-05 12:12:18) [GET]
+  Parameters: {"id"=>"2"}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:20:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 12:28:02) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-05 12:28:06) [GET]
+  Parameters: {"id"=>"2"}
+
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: pictures: SELECT * FROM "pictures" WHERE ("pictures".book_id = 2)  LIMIT 1):
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract_adapter.rb:188:in `log'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:372:in `catch_schema_changes'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:132:in `execute'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/sqlite_adapter.rb:275:in `select'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/database_statements.rb:7:in `select_all_without_query_cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:81:in `cache_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:60:in `select_all'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:635:in `find_by_sql'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1490:in `find_every'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1452:in `find_initial'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:587:in `find'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/has_one_association.rb:68:in `find_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:233:in `load_target'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations/association_proxy.rb:112:in `reload'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/associations.rb:1249:in `picture'
+    /app/controllers/books_controller.rb:20:in `show'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/500.html (500 Internal Server Error)
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 12:40:46) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-05 12:40:50) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2]
+
+
+Processing BooksController#edit (for 66.30.9.143 at 2009-03-05 12:40:54) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2/edit]
+
+
+Processing BooksController#update (for 66.30.9.143 at 2009-03-05 12:41:02) [PUT]
+  Parameters: {"picture_file"=>"", "commit"=>"update", "authenticity_token"=>"624e7a971570039dcc310b8bb83ef993f49c0cd0", "id"=>"2", "book"=>{"imprint"=>"Weimar, 1795", "price"=>"2950", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 16ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:41:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 12:41:37) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-05 12:41:40) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2]
+
+
+Processing BooksController#edit (for 66.30.9.143 at 2009-03-05 12:41:45) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2/edit]
+
+
+Processing BooksController#update (for 66.30.9.143 at 2009-03-05 12:42:53) [PUT]
+  Parameters: {"picture_file"=>"", "commit"=>"update", "authenticity_token"=>"624e7a971570039dcc310b8bb83ef993f49c0cd0", "id"=>"2", "book"=>{"imprint"=>"Weimar, 1795", "price"=>"2950", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2]
+
+
+Processing BooksController#update (for 66.30.9.143 at 2009-03-05 12:42:59) [PUT]
+  Parameters: {"picture_file"=>"", "commit"=>"update", "authenticity_token"=>"624e7a971570039dcc310b8bb83ef993f49c0cd0", "id"=>"2", "book"=>{"imprint"=>"Weimar, 1795", "price"=>"2950", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-05 12:43:08) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2]
+
+
+Processing BooksController#edit (for 66.30.9.143 at 2009-03-05 12:43:13) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/2/edit]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 12:43:47) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 56ms (View: 55, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#destroy (for 66.30.9.143 at 2009-03-05 12:43:53) [DELETE]
+  Parameters: {"authenticity_token"=>"624e7a971570039dcc310b8bb83ef993f49c0cd0", "id"=>"2"}
+Redirected to http://musinskyrarebooks.katemuse.net/books
+Completed in 7ms (DB: 1) | 302 Found [http://musinskyrarebooks.katemuse.net/books/2]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 12:43:53) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#new (for 66.30.9.143 at 2009-03-05 12:43:55) [GET]
+Rendering template within layouts/application
+Rendering books/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/new]
+
+
+Processing BooksController#create (for 66.30.9.143 at 2009-03-05 12:44:36) [POST]
+  Parameters: {"picture_file"=>"", "commit"=>"create", "authenticity_token"=>"624e7a971570039dcc310b8bb83ef993f49c0cd0", "book"=>{"imprint"=>"Weimar, 1795", "price"=>"2950", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+Redirected to #<Book:0xa0a323c>
+Completed in 7ms (DB: 0) | 302 Found [http://musinskyrarebooks.katemuse.net/books/create]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-05 12:44:36) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing BooksController#edit (for 66.30.9.143 at 2009-03-05 12:45:07) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3/edit]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:45:24) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 12:46:05) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 12:48:07) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 12:48:34) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 12:48:36) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:48:58) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:48:59) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:49:38) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:49:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#login (for 66.30.9.143 at 2009-03-05 12:53:55) [GET]
+Redirected to actionindex
+Completed in 0ms (DB: 0) | 302 Found [http://musinskyrarebooks.katemuse.net/login]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 12:53:55) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 26ms (View: 2, DB: 23) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:57:28) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:57:31) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:58:07) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:58:08) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:58:11) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:58:12) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:58:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-05 12:58:45) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 11ms (View: 7, DB: 2) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-05 12:59:04) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-05 19:23:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-05 19:23:51) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-05 19:24:02) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-05 19:24:04) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 61ms (View: 57, DB: 2) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 151.205.98.195 at 2009-03-05 19:24:27) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-05 19:24:32) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-05 19:35:48) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 29ms (View: 2, DB: 26) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-05 19:35:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-05 19:35:55) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-05 19:35:59) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 8ms (View: 2, DB: 5) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 151.205.98.195 at 2009-03-05 19:36:00) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 11ms (View: 2, DB: 8) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-05 19:37:27) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 364ms (View: 2, DB: 361) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#login (for 151.205.98.195 at 2009-03-05 19:37:28) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0ms (View: 0, DB: 0) | 401 Unauthorized [http://musinskyrarebooks.katemuse.net/login]
+
+
+Processing BooksController#login (for 151.205.98.195 at 2009-03-05 19:37:36) [GET]
+Redirected to actionindex
+Completed in 0ms (DB: 0) | 302 Found [http://musinskyrarebooks.katemuse.net/login]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-05 19:37:37) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 7ms (View: 3, DB: 4) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-05 19:39:39) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-05 19:39:41) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 30ms (View: 2, DB: 26) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-05 19:39:42) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-05 19:39:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-05 19:39:54) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 8ms (View: 2, DB: 5) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-05 20:07:35) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 91ms (View: 83, DB: 6) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 151.205.98.195 at 2009-03-05 20:07:40) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 151.205.98.195 at 2009-03-05 20:07:43) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-06 10:40:57) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-06 10:41:06) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 82ms (View: 69, DB: 11) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-06 10:41:09) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-06 10:44:02) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 23ms (View: 2, DB: 20) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-06 10:44:05) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-06 10:44:07) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-06 10:44:10) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-06 10:44:12) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 6ms (View: 2, DB: 3) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#login (for 66.30.9.143 at 2009-03-06 10:44:15) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0ms (View: 0, DB: 0) | 401 Unauthorized [http://musinskyrarebooks.katemuse.net/login]
+
+
+Processing BooksController#login (for 66.30.9.143 at 2009-03-06 10:44:18) [GET]
+Redirected to actionindex
+Completed in 0ms (DB: 0) | 302 Found [http://musinskyrarebooks.katemuse.net/login]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-06 10:44:18) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#edit (for 66.30.9.143 at 2009-03-06 10:44:22) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3/edit]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-06 10:59:15) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-06 10:59:19) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 69ms (View: 48, DB: 19) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#edit (for 66.30.9.143 at 2009-03-06 10:59:22) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3/edit]
+
+
+Processing BooksController#update (for 66.30.9.143 at 2009-03-06 10:59:26) [PUT]
+  Parameters: {"picture_file"=>"", "commit"=>"update", "authenticity_token"=>"4f0a8d0c1c32e828112ccf5837101fd48fe1421f", "id"=>"3", "book"=>{"imprint"=>"Weimar, 1795", "price"=>"2950", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 5ms (View: 3, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing BooksController#update (for 66.30.9.143 at 2009-03-06 10:59:44) [PUT]
+  Parameters: {"picture_file"=>"", "commit"=>"update", "authenticity_token"=>"4f0a8d0c1c32e828112ccf5837101fd48fe1421f", "id"=>"3", "book"=>{"imprint"=>"Weimar, 1795", "price"=>"2950", "title"=>"paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing BooksController#login (for 66.30.9.143 at 2009-03-06 10:59:53) [GET]
+Redirected to actionindex
+Completed in 0ms (DB: 0) | 302 Found [http://musinskyrarebooks.katemuse.net/login]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-06 10:59:53) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#edit (for 66.30.9.143 at 2009-03-06 10:59:58) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3/edit]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-06 11:00:09) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-06 11:00:09) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-06 11:00:24) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 8ms (View: 2, DB: 5) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 66.30.9.143 at 2009-03-06 11:00:29) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing WelcomeController#index (for 66.30.9.143 at 2009-03-06 11:00:36) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-06 11:00:40) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 8ms (View: 2, DB: 5) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#edit (for 66.30.9.143 at 2009-03-06 11:00:45) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3/edit]
+
+
+Processing BooksController#update (for 66.30.9.143 at 2009-03-06 11:00:57) [PUT]
+  Parameters: {"picture_file"=>"", "commit"=>"update", "authenticity_token"=>"4f0a8d0c1c32e828112ccf5837101fd48fe1421f", "id"=>"3", "book"=>{"imprint"=>"Weimar, 1795", "price"=>"2950", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n         ", "heading"=>""}}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing BooksController#index (for 66.30.9.143 at 2009-03-06 11:01:44) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing ApplicationController#index (for 38.100.8.50 at 2009-03-07 07:55:50) [GET]
+
+
+ActionController::RoutingError (No route matches "/musinskyrarebooks/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 65.96.129.96 at 2009-03-08 20:30:50) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 65.96.129.96 at 2009-03-08 20:31:45) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 27ms (View: 24, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 65.96.129.96 at 2009-03-08 20:31:47) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing WelcomeController#index (for 65.96.129.96 at 2009-03-08 20:31:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 65.96.129.96 at 2009-03-08 20:31:55) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 3ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#login (for 65.96.129.96 at 2009-03-08 20:31:57) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0ms (View: 0, DB: 0) | 401 Unauthorized [http://musinskyrarebooks.katemuse.net/login]
+
+
+Processing BooksController#login (for 65.96.129.96 at 2009-03-08 20:31:59) [GET]
+Redirected to actionindex
+Completed in 0ms (DB: 0) | 302 Found [http://musinskyrarebooks.katemuse.net/login]
+
+
+Processing BooksController#index (for 65.96.129.96 at 2009-03-08 20:31:59) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 4ms (View: 3, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 65.96.129.96 at 2009-03-08 20:32:03) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing BooksController#edit (for 65.96.129.96 at 2009-03-08 20:32:06) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3/edit]
+
+
+Processing BooksController#update (for 65.96.129.96 at 2009-03-08 20:33:56) [PUT]
+  Parameters: {"picture_file"=>#<File:/tmp/CGI21265-9>, "commit"=>"update", "authenticity_token"=>"15fc33e030d2dbfc06cfc0fbf468accc68d38f70", "id"=>"3", "book"=>{"imprint"=>"Weimar, 1795", "price"=>"2950", "title"=>"Paedologia", "author"=>"MOSELLANUS, P.; SCHADE, P.; HEGENDORFF, C.", "subject"=>"education", "description"=>"MOSELLANUS, Petrus [Peter SCHADE] (1493-1524). <i>Paedologia ... in puerorum usum conscripta & aucta. Dialogi XXXVII</i>. - Christoph HEGENDORFF (1500-1540). <i>Dialogi pueriles ... XII lepidi aeque ac docti</i>. Strassburg: Christian Egenolph for Paul Goetz, 1529.  \r\n               \r\n8vo (148 x 96 mm). [40] leaves. Italic and roman type. White-on-black criblé initial. Nineteenth-century olive polished morocco gilt, double blind fillet panel on sides with gold-tooled fleurons at corners and central stamped entrelac cartouche, turn-ins gilt, gilt edges, by Capé (slight wear to joints and head and tail of spine). A few early marginal notes.        \r\n\r\nRare edition of two popular humanist pedagogical works. The brilliant and sickly Hellenist Peter Schade, rector of Leipzig University by the age of 27, argued that Greek and Hebrew should be on an equal footing with Latin in the teaching of theological studies. He wrote these dialogues for schoolboys to teach them Latin rhetoric. The studious duos (Gaspar & Modestus, Pandulus & Petrus, Rhaphael & Servatius, et al.) discuss topics of interest to their readers: next semester’s classes (De authoribus proximo semestri in schola praelegendis), vacation (De vindemia & aucupio), birthdays and birthday presents (De natali celebrando, de receptis pecuniis), drinking, eating, hangovers and shows. The 20-year old Hegendorff wrote his own entertaining dialogues along the same lines for his pupils at St. Nicholas school in Leipzig. The two works were published together from 1520 and were true 16th-century best-sellers, over 45 editions being recorded. Most are now rare. Of this edition VD-16 records only the Bayerische Staatsbibliothek copy. Not in Buisson, and no copies in America.                            \r\n\r\nVD-16 S 2155 & H 1167.\r\n\r\n                ", "heading"=>""}}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 701ms (View: 3, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing WelcomeController#index (for 65.96.129.96 at 2009-03-09 01:50:56) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing ApplicationController#index (for 69.58.178.32 at 2009-03-10 01:42:24) [GET]
+
+
+ActionController::RoutingError (No route matches "/musinskyrarebooks/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 205.178.184.153 at 2009-03-12 21:10:08) [GET]
+
+
+ActionController::RoutingError (No route matches "/musinskyrarebooks/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for 205.178.184.153 at 2009-03-12 21:10:42) [GET]
+
+
+ActionController::RoutingError (No route matches "/musinskyrarebooks/" with {:method=>:get}):
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:101:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:151:in `with_signal_handler'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:99:in `process_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:76:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:612:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/fcgi-0.8.7/lib/fcgi.rb:609:in `each_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:75:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `catch'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:74:in `process_each_request'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:49:in `process!'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/fcgi_handler.rb:23:in `process!'
+    dispatch.fcgi:24
+
+Rendering /home/musinsky/musinskyRareBooks/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 65.96.129.96 at 2009-03-13 19:19:45) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 20ms (View: 19, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 65.96.129.96 at 2009-03-13 19:19:52) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 19ms (View: 7, DB: 10) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing WelcomeController#index (for 65.96.129.96 at 2009-03-13 19:19:53) [GET]
+Rendering template within layouts/application
+Rendering welcome/index
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/]
+
+
+Processing BooksController#index (for 65.96.129.96 at 2009-03-13 19:19:55) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 14ms (View: 2, DB: 11) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#show (for 65.96.129.96 at 2009-03-13 19:19:56) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]
+
+
+Processing BooksController#login (for 65.96.129.96 at 2009-03-13 19:20:03) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 0ms (View: 0, DB: 0) | 401 Unauthorized [http://musinskyrarebooks.katemuse.net/login]
+
+
+Processing BooksController#login (for 65.96.129.96 at 2009-03-13 19:20:12) [GET]
+Redirected to actionindex
+Completed in 0ms (DB: 0) | 302 Found [http://musinskyrarebooks.katemuse.net/login]
+
+
+Processing BooksController#index (for 65.96.129.96 at 2009-03-13 19:20:13) [GET]
+Rendering template within layouts/application
+Rendering books/index
+Completed in 12ms (View: 3, DB: 8) | 200 OK [http://musinskyrarebooks.katemuse.net/books]
+
+
+Processing BooksController#edit (for 65.96.129.96 at 2009-03-13 19:20:15) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/edit
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3/edit]
+
+
+Processing BooksController#show (for 65.96.129.96 at 2009-03-13 19:45:16) [GET]
+  Parameters: {"id"=>"3"}
+Rendering template within layouts/application
+Rendering books/show
+Completed in 126ms (View: 2, DB: 123) | 200 OK [http://musinskyrarebooks.katemuse.net/books/3]

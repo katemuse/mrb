@@ -13,11 +13,13 @@
               	   <% unless @is_authenticated %>	
 					<li> <%= link_to "log in", login_path %></li>  
 					<% end %>
-
-				<!--li><a href="#" title="">lists</a></li-->
-				<li><a href="#" title="">contact</a></li>
+				<% if @is_authenticated %>	
+				<li> <%= link_to "log out", :action => 'logout' %></li>  
+				<% end %>
+				<!--li><a href="#" title="">lists</a></li>
+				<li><a href="#" title="">contact</a></li  -->
 			</ul>   </div>
 	   
 	    <div id="contact"> 	<h2 class="heading">Contact </h2>
-			<%= render :partial => "contact_info" %>  <!-- end #contact -->
+			<%= render :partial => "books/contact_info" %>  <!-- end #contact -->
 	 </div>    <!-- end #left -->

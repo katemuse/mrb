@@ -32,11 +32,13 @@ class BookService
   end  
   
   def update_attributes(book_attributes, picture_file)
-    @book.attributes = book_attributes
+    @book.attributes = book_attributes 
+    @book.save
     unless picture_file.blank?
       @picture = Picture.new(:uploaded_data => picture_file)
     end
-    save
+    save 
+    true
   end
   
 end

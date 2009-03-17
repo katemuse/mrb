@@ -137,15 +137,14 @@ address {
 	margin-right: 10px;
 }
 .right {
-	float: right;  
-	
+	float: right;
 	width: 100px;
 	border: double #333 thin;
 	margin: 10px;
 	padding:20px
 	text-align: center;
 	z-index:50;
-} 
+}
 .right-spacer {
 	float: right;  
 	clear: right;
@@ -241,7 +240,7 @@ address {
 	line-height: normal;
 }
 #center .boxed p {
-	text-indent: 2em;
+/* 	text-indent: 2em; */  
 	margin-bottom: 1.1em;
 }
 
@@ -299,3 +298,7 @@ pre {
 	font-size: .9em;
 	}
 	
+.admincontrols, .admincontrols a:hover {
+	color: blue;
+	font-size: .9em;
+	}

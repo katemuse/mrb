@@ -1,8 +1,8 @@
 class ListsController < ApplicationController
   # GET /lists
   # GET /lists.xml
-  before_filter :authenticate, :except => [:index]
-  before_filter :is_authenticated?, :only => [:index,:edit, :new, :create, :login]
+  # before_filter :authenticate, :except => [:index]
+#   before_filter :is_authenticated?, :only => [:index,:edit, :new, :create, :login]
   
 
   def index

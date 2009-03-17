@@ -1,6 +1,6 @@
 class BooksController < ApplicationController     
-  before_filter :authenticate, :except => [:index, :show]
-  before_filter :is_authenticated?, :only => [:index, :show, :login]
+
+  # before_filter :is_authenticated?, :only => [:index, :show, :login]
   
   # GET /books
   # GET /books.xml
@@ -23,15 +23,6 @@ class BooksController < ApplicationController
       format.xml  { render :xml => @book }
     end
   end
-   
-   
-   def login
-      unless @is_authenticated   
-        authenticate
-        flash[:notice] = 'hey, #{session[:username].capitalize}'  
-      end 
-      redirect_to :action => :index    
-    end
     
     
     # GET /books
@@ -59,7 +50,8 @@ class BooksController < ApplicationController
 
   # GET /books/1/edit
   def edit
-    @book = Book.find(params[:id])
+    @book = Book.find(params[:id])      
+    @picture = @book.picture 
   end
 
   # POST /books
@@ -86,13 +78,13 @@ class BooksController < ApplicationController
     @book = Book.find(params[:id])
     @picture = @book.picture
     @service = BookService.new(@book, @picture)
-    
     respond_to do |format|
       if @service.update_attributes(params[:book], params[:picture_file])
         flash[:notice] = 'Book was successfully updated.'
         format.html { redirect_to(@book) }
         format.xml  { head :ok }
       else
+        flash[:notice] = "Book could not be updated." 
         format.html { render :action => "edit" }
         format.xml  { render :xml => @book.errors, :status => :unprocessable_entity }
       end

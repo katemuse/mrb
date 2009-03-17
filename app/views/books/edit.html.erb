@@ -5,19 +5,26 @@
 <h1 class="heading">Edit</h1>   
 
          <p class = "flash"><%= flash[:notice] %></p>  
+<p class = "flash"><%= debug @book %></p>
 
-
-<!--h2>Editing book</h2-->
+<!--h2>Editing book</h2-->   
+<div>
  <% form_tag({:action => 'update', :id => @book}, :method => 'put', :multipart => true) do %>    
  	<%= error_messages_for :books %>                   
-	   <%= render :partial => 'form' %>
-	<p><%= submit_tag 'update' %></p>
+	   <%= render :partial => 'form' %>  
+	
+	<div style="float:left; margin-top:18px; margin-left:8px; ">
+   <% if @picture %> 
+  <p>  <%= image_tag @picture.public_filename %>  
+	<%= link_to "delete image", {:controller=>:pictures, :action=>:destroy, :id=>@picture}, :style => "vertical-align:top"  %>     </p>
+	<% end %>
+	<p><%= submit_tag 'update' %></p>  
+</div>
  <% end %>   
+ </div>   
+
+<div style = 'margin-left:8px' class="admincontrols"><%= link_to 'Show', @book %> <br/>   <br/> 
+
 	
-
-<span class="admincontrols"><%= link_to 'Show', @book %> |
-
-
-	
-	<%= link_to 'Back to short-title list', books_path %> </span>
+	<%= link_to 'Back to short-title list', books_path %>  </div> 
   </div></div>

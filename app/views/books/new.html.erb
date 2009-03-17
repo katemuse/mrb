@@ -17,7 +17,7 @@
 <!--h2>Editing book</h2-->
  <% form_tag({:action => 'create', :id => @book}, :multipart => true) do %>                       
 	   <%= render :partial => 'form' %>
-	<p><%= submit_tag 'create' %>  ></p>
+	<p><%= submit_tag 'create' %>  </p>
 <% end %>
 
 <span class="admincontrols"><%= link_to 'Back to short-title list', books_path %> </span> </div></div>
