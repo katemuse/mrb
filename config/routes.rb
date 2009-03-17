@@ -48,6 +48,7 @@ ActionController::Routing::Routes.draw do |map|
   
   # named route:
   map.login 'login', :controller => 'users', :action => 'login' 
+  map.logout 'logout', :controller => 'users', :action => 'logout' 
    # This route can be invoked with login_url   /#(:id => product.id)      
   map.welcome 'welcome', :controller => 'welcome', :action => 'index'
   map.signup 'signup', :controller => 'users', :action => :signup

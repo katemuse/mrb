@@ -1,4 +1,4 @@
- <div style="float:left">  <p> <%= error_messages_for :book %>  </p>
+  <p> <%= error_messages_for :book %>  </p>
   <p>  <%= label :book, :author %>   <br />
     <%= text_field :book, :author %>
   </p>
@@ -21,18 +21,13 @@
   <p>
     <%=  label :book,  :heading %>    <br />
     <%= text_field :book, :heading %>
-  </p> 
-</div> 
-<div style="float:left; margin-top:28px; margin-left:6px; clear:right;"> 
- <p>
+  </p>
+  <p>
     <%=  label :book,  :description %>      <br />
     <%= text_area :book, :description, :cols => 72 %>
-  </p> 
-
+  </p>
 <p>
  	<%= label :book, :picture %>
 	<%= file_field_tag :picture_file %> 
 	<span class="admincontrols">Upload jpeg, gif or png files up to 500 kb. <br/> Unless new or different image is desired, this may be left blank. </span>
  </p>
-
-</div>
